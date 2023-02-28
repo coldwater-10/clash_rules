@@ -1,6 +1,6 @@
 const maxConfigItems = 500
-const maxPerType = 200
-const includeOriginalConfigs = true
+const maxPerType = 500
+const includeOriginalConfigs = 0
 
 const subLinks = [
   "https://raw.githubusercontent.com/freefq/free/master/v2",
@@ -71,14 +71,14 @@ export default {
         if (includeOriginalConfigs) {
           mergedConfigList = mergedConfigList.concat(
             getMultipleRandomElements(
-              vmessConfigList.map(decodeVmess).filter(cnf => (!!cnf && cnf.id)).map(cnf => toClash(cnf, "vmess")).filter(cnf => !!cnf),
+              vmessConfigList.map(decodeVmess).filter(cnf => (cnf && cnf.id)).map(cnf => toClash(cnf, "vmess")).filter(cnf => (cnf && cnf.uuid)),
               maxPerType
             )
           )
         }
         mergedConfigList = mergedConfigList.concat(
           getMultipleRandomElements(
-            vmessConfigList.map(decodeVmess).map(cnf => mixConfig(cnf, url, "vmess")).filter(cnf => (!!cnf && cnf.id)).map(cnf => toClash(cnf, "vmess")),
+            vmessConfigList.map(decodeVmess).map(cnf => mixConfig(cnf, url, "vmess")).filter(cnf => (cnf && cnf.id)).map(cnf => toClash(cnf, "vmess")),
             maxPerType
           )
         )
@@ -150,33 +150,31 @@ function mixConfig(conf, url, protocol) {
 }
 
 function getMultipleRandomElements(arr, num) {
-  var shuffled = [...arr].sort(() => 0.5 - Math.random());
-  return shuffled.slice(0, num);
+  var shuffled = arr //[...arr].sort(() => 0.5 - Math.random())
+  return shuffled.slice(0, num)
 }
 
 function isIp(str) {
   try {
-    if (str == "" || str == undefined) return false;
+    if (str == "" || str == undefined) return false
     if (!/^(\d{1,2}|1\d\d|2[0-4]\d|25[0-5])(\.(\d{1,2}|1\d\d|2[0-4]\d|25[0-5])){2}\.(\d{1,2}|1\d\d|2[0-4]\d|25[0-4])$/.test(str)) {
-      return false;
+      return false
     }
-    var ls = str.split('.');
+    var ls = str.split('.')
     if (ls == null || ls.length != 4 || ls[3] == "0" || parseInt(ls[3]) === 0) {
-      return false;
+      return false
     }
-    return true;
+    return true
   } catch (e) { }
-  return false;
+  return false
 }
 
 function toClash(conf, protocol) {
+  const regexUUID = /^[0-9a-fA-F]{8}\b-[0-9a-fA-F]{4}\b-[0-9a-fA-F]{4}\b-[0-9a-fA-F]{4}\b-[0-9a-fA-F]{12}$/gi
   var config = {}
   try {
-    if (!toClash.counter) {
-      toClash.counter = 1;
-    }
     config = {
-      name: "vpnclashfa " + toClash.counter,
+      name: conf.name ? conf.name : conf.ps,
       type: protocol,
       server: conf.add,
       port: conf.port,
@@ -194,13 +192,15 @@ function toClash(conf, protocol) {
         }
       }
     }
-    toClash.counter++;
+    config.name = config.name.replace(/[^\x20-\x7E]/g, "").replace(/[\s\/:|\[\]@\(\)\.]/g, "") + "-" + Math.floor(Math.random() * 10000)
+    if (!regexUUID.test(config.uuid)) {
+      return {}
+    }
     return config
   } catch (e) {
-    return conf
+    return {}
   }
 }
-
 
 function toYaml(configList) {
   var yaml = 
@@ -399,11 +399,9 @@ rule-providers:
     path: ./ruleset/Global.yaml
     interval: 432000
 
+
 proxies:
-`
-  yaml = yaml + configList.map(cnf => "  - " + JSON.stringify(cnf)).join("\n")
-   yaml = yaml +
-`
+${configList.map(cnf => "  - " + JSON.stringify(cnf)).join("\n")}
 
 proxy-groups:
   - name: 🚀 انتخاب پروکسی
@@ -411,19 +409,14 @@ proxy-groups:
     proxies:
       - ♻️ خودکار (بهترین پینگ)
       - DIRECT
-`
-  yaml = yaml + configList.map(cnf => "      - " + cnf.name.replace(/[^A-Za-z0-9\-\ ]/g, "")).join("\n")
-  yaml = yaml + `
-
+${configList.map(cnf => "      - " + cnf.name.trim()).join("\n")}
   - name: ♻️ خودکار (بهترین پینگ)
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-`
-  yaml = yaml + configList.map(cnf => "      - " + cnf.name.replace(/[^A-Za-z0-9\-\ ]/g, "")).join("\n")
-  yaml = yaml + `
+${configList.map(cnf => "      - " + cnf.name.trim()).join("\n")}
 
   - name: 🛑 رهگیری جهانی
     type: select
