@@ -1,5 +1,5 @@
 const maxConfigItems = 500
-const maxPerType = 500
+const maxPerType = 400
 const includeOriginalConfigs = 0
 
 const subLinks = [
@@ -276,8 +276,8 @@ dns:
       - fc00::/7
       - fe80::/64
   default-nameserver:
-    - 8.8.8.8
     - 1.1.1.1
+    - 8.8.8.8
     - 112.215.203.254
   fake-ip-range: 198.18.0.1/16
   fake-ip-filter:
