@@ -34,21 +34,22 @@ dns:
   proxy-server-nameserver:
     - https://1.1.1.1/dns-query
   nameserver:
-    - 8.8.8.8
-    - 1.0.0.1
-    - https://dns.google/dns-query
+    - 1.1.1.1
+    - 4.2.2.4
     - 119.29.29.29
     - 223.5.5.5
-    - 1.1.1.1
+    - 8.8.8.8
+    - 1.0.0.1
     - 114.114.114.114
     - 9.9.9.9
     - 119.28.28.28
+    - https://dns.google/dns-query
     - https://1.1.1.1/dns-query
     - https://doh.opendns.com/dns-query
     - https://doh.dns.sb/dns-query
-    - tls://dns.rubyfish.cn:853
-    - dhcp://en0
     - https://doh.pub/dns-query
+    - dhcp://en0
+    - tls://dns.rubyfish.cn:853
     - tls://dot.pub:853
   fallback:
     - https://1.1.1.1/dns-query
@@ -245,9 +246,6 @@ proxy-groups:
       - ♻️ خودکار (بهترین پینگ)
       - 🚀 انتخاب پروکسی
 rules:
-  - GEOIP,IR,🇮🇷 سایتای ایرانی
-  - DOMAIN-SUFFIX,ir,🇮🇷 سایتای ایرانی
-  - RULE-SET,iran,🇮🇷 سایتای ایرانی
   - GEOSITE,category-ads-all,🆎 تبلیغات
   - RULE-SET,add,🆎 تبلیغات
   - IP-CIDR,23.109.87.42/32,🆎 تبلیغات,no-resolve
@@ -324,6 +322,9 @@ rules:
   - IP-CIDR,77.162.125.199/32,🆎 تبلیغات,no-resolve
   - IP-CIDR,185.165.169.108/32,🆎 تبلیغات,no-resolve
   - IP-CIDR,185.193.38.148/32,🆎 تبلیغات,no-resolve
+  - GEOIP,IR,🇮🇷 سایتای ایرانی
+  - DOMAIN-SUFFIX,ir,🇮🇷 سایتای ایرانی
+  - RULE-SET,iran,🇮🇷 سایتای ایرانی
   - RULE-SET,Purification,🍃 تصفیه برنامه
   - IP-CIDR,101.227.200.0/24,🍃 تصفیه برنامه,no-resolve
   - IP-CIDR,101.227.200.11/32,🍃 تصفیه برنامه,no-resolve
