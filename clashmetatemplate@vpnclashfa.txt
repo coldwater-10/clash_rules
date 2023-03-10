@@ -182,6 +182,12 @@ rule-providers:
       https://github.com/bootmortis/iran-hosted-domains/releases/latest/download/clash_rules.yaml
     path: ./ruleset/iran.yaml
     interval: 432000
+  steam:
+    type: http
+    behavior: classical
+    url: https://raw.githubusercontent.com/coldwater-10/clash_rules/main/steam.yaml
+    path: ./ruleset/steam.yaml
+    interval: 432000
   add:
     type: http
     behavior: classical
@@ -217,6 +223,13 @@ proxy-groups:
     tolerance: 50
     proxies:
       - .*
+  - name: 🎮 استیم
+    type: select
+    proxies:
+      - DIRECT
+      - REJECT
+      - ♻️ خودکار (بهترین پینگ)
+      - 🚀 انتخاب پروکسی
   - name: 🛑 رهگیری جهانی
     type: select
     proxies:
@@ -325,6 +338,8 @@ rules:
   - GEOIP,IR,🇮🇷 سایتای ایرانی
   - DOMAIN-SUFFIX,ir,🇮🇷 سایتای ایرانی
   - RULE-SET,iran,🇮🇷 سایتای ایرانی
+  - DOMAIN-KEYWORD,dl20.freeserver.top,🇮🇷 سایتای ایرانی
+  - DOMAIN-KEYWORD,dl10.dl14r-mobo-dl-filter-nakon.xyz,🇮🇷 سایتای ایرانی
   - RULE-SET,Purification,🍃 تصفیه برنامه
   - IP-CIDR,101.227.200.0/24,🍃 تصفیه برنامه,no-resolve
   - IP-CIDR,101.227.200.11/32,🍃 تصفیه برنامه,no-resolve
