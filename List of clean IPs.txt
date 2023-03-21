@@ -8,7 +8,7 @@
 103.169.142.136		 in :  TEST
 104.16.157.46		 in :  MKB
 104.16.184.52		 in :  MKB
-104.16.20.26		 in :  TEST MKB
+104.16.20.26		 in :  TEST MKB IRC
 104.16.71.73		 in :  MKB
 104.17.101.84		 in :  MKB
 104.17.113.89		 in :  MKB
@@ -64,7 +64,7 @@
 160.153.0.63		 in :  TEST
 160.153.0.9		 in :  TEST
 160.153.0.90		 in :  TEST
-162.159.136.232		 in :  TEST MKB
+162.159.136.232		 in :  TEST MKB IRC
 168.100.6.22		 in :  TEST
 168.100.6.245		 in :  TEST
 168.100.6.29		 in :  TEST
@@ -342,8 +342,8 @@
 212.110.135.59		 in :  TEST
 212.110.135.60		 in :  MKB
 212.24.127.92		 in :  MKB
-23.227.39.113		 in :  TEST MKB
-23.227.60.130		 in :  TEST MKB
+23.227.39.113		 in :  TEST MKB IRC
+23.227.60.130		 in :  TEST MKB IRC
 31.43.179.130		 in :  MKB
 31.43.179.35		 in :  MKB
 31.43.179.39		 in :  MKB
@@ -448,7 +448,7 @@
 5.226.179.41		 in :  MKB
 5.226.179.48		 in :  MKB
 5.226.179.8		 in :  MKB
-66.235.200.30		 in :  TEST MKB
+66.235.200.30		 in :  TEST MKB IRC
 66.81.255.104		 in :  MKB
 66.81.255.130		 in :  TEST
 66.81.255.132		 in :  TEST
