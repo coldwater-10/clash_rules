@@ -1,5 +1,5 @@
 const maxConfigItems = 500
-const maxPerType = 400
+const maxPerType = 300
 const includeOriginalConfigs = 0
 
 const subLinks = [
@@ -12,9 +12,9 @@ const cnfLinks = [
   "https://raw.githubusercontent.com/mahdibland/ShadowsocksAggregator/master/sub/sub_merge.txt",
   "https://raw.githubusercontent.com/awesome-vpn/awesome-vpn/master/all"
 ]
-const cleanIPLink = "http://bot.sudoer.net/best.cf.iran.all"
-const operatorList = ["AST", "HWB", "IRC", "MBT", "MCI", "MKB", "PRS", "RTL", "SHT", "ZTL"]
-const addressList = ["discord.com", "cloudflare.com", "nginx.com", "cdnjs.com", "vimeo.com", "networksolutions.com", "spotify.com"]
+const cleanIPLink = "https://raw.githubusercontent.com/coldwater-10/clash_rules/main/List%20of%20clean%20IPs.txt"
+const operatorList = ["AST", "HWB", "IRC", "MBT", "MCI", "MKB", "PRS", "RTL", "SHT", "ZTL", "PIS", "DAT", "SAB", "ASR", "FAN", "ZTL", "SFR", "DID", "LAY", "MAH", "TAK", "PET", "ALL", "TEST", "ENG", "FA"]
+const addressList = ["discord.com", "cloudflare.com", "nginx.com", "cdnjs.com", "vimeo.com", "networksolutions.com"]
 const fpList = ["chrome", "chrome", "chrome", "firefox", "safari", "edge", "ios", "android", "random", "random"]
 const alpnList = ["http/1.1", "h2,http/1.1", "h2,http/1.1"]
 var cleanIPs = []
@@ -392,6 +392,13 @@ rule-providers:
       https://github.com/bootmortis/iran-hosted-domains/releases/latest/download/clash_rules.yaml
     path: ./ruleset/iran.yaml
     interval: 432000
+  steam:
+    type: http
+    behavior: classical
+    url: >-
+      https://raw.githubusercontent.com/coldwater-10/clash_rules/main/steam.yaml
+    path: ./ruleset/steam.yaml
+    interval: 432000
   add:
     type: http
     behavior: classical
@@ -405,6 +412,7 @@ rule-providers:
       https://raw.githubusercontent.com/coldwater-10/clash_rules/main/Purification%20app.yaml
     path: ./ruleset/Purification.yaml
     interval: 432000
+    
   Global:
     type: http
     behavior: classical
@@ -431,7 +439,13 @@ ${configList.map(cnf => "      - " + cnf.name.trim()).join("\n")}
     tolerance: 50
     proxies:
 ${configList.map(cnf => "      - " + cnf.name.trim()).join("\n")}
-
+  - name: 🎮 استیم
+    type: select
+    proxies:
+      - DIRECT
+      - REJECT
+      - ♻️ خودکار (بهترین پینگ)
+      - 🚀 انتخاب پروکسی
   - name: 🛑 رهگیری جهانی
     type: select
     proxies:
@@ -462,6 +476,13 @@ ${configList.map(cnf => "      - " + cnf.name.trim()).join("\n")}
       - 🚀 انتخاب پروکسی
 
 rules:
+  - GEOIP,IR,🇮🇷 سایتای ایرانی
+  - DOMAIN-SUFFIX,ir,🇮🇷 سایتای ایرانی
+  - RULE-SET,iran,🇮🇷 سایتای ایرانی
+  - DOMAIN-KEYWORD,freeserver.top,🇮🇷 سایتای ایرانی
+  - DOMAIN-KEYWORD,sermovie.xyz,🇮🇷 سایتای ایرانی
+  - DOMAIN-KEYWORD,mobo-dl-filter-nakon.xyz,🇮🇷 سایتای ایرانی
+  - RULE-SET,steam,🎮 استیم
   - GEOSITE,category-ads-all,🆎 تبلیغات
   - RULE-SET,add,🆎 تبلیغات
   - IP-CIDR,23.109.87.42/32,🆎 تبلیغات,no-resolve
@@ -538,11 +559,6 @@ rules:
   - IP-CIDR,77.162.125.199/32,🆎 تبلیغات,no-resolve
   - IP-CIDR,185.165.169.108/32,🆎 تبلیغات,no-resolve
   - IP-CIDR,185.193.38.148/32,🆎 تبلیغات,no-resolve
-  - GEOIP,private,DIRECT,no-resolve
-  - GEOIP,LAN,DIRECT,no-resolve
-  - GEOIP,IR,🇮🇷 سایتای ایرانی
-  - DOMAIN-SUFFIX,ir,🇮🇷 سایتای ایرانی
-  - RULE-SET,iran,🇮🇷 سایتای ایرانی
   - RULE-SET,Purification,🍃 تصفیه برنامه
   - IP-CIDR,101.227.200.0/24,🍃 تصفیه برنامه,no-resolve
   - IP-CIDR,101.227.200.11/32,🍃 تصفیه برنامه,no-resolve
@@ -564,10 +580,6 @@ rules:
   - IP-CIDR,223.87.182.11/32,🍃 تصفیه برنامه,no-resolve
   - IP-CIDR,223.87.182.52/32,🍃 تصفیه برنامه,no-resolve
   - RULE-SET,Global,🛑 رهگیری جهانی
-  - DOMAIN-SUFFIX,v2rayse.com,🚀 انتخاب پروکسی
-  - DOMAIN-SUFFIX,cff.pw,🚀 انتخاب پروکسی
-  - DOMAIN-SUFFIX,vpnse.org,🚀 انتخاب پروکسی
-  - DOMAIN-SUFFIX,cfmem.com,🚀 انتخاب پروکسی
   - MATCH,🚀 انتخاب پروکسی
 `
    return yaml
