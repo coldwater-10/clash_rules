@@ -497,7 +497,8 @@ rules:
   - DOMAIN-SUFFIX,ir,🇮🇷 سایتای ایرانی
   - RULE-SET,iran,🇮🇷 سایتای ایرانی
   - DOMAIN-KEYWORD,freeserver.top,🇮🇷 سایتای ایرانی
-  - DOMAIN-KEYWORD,dl10.dl14r-mobo-dl-filter-nakon.xyz,🇮🇷 سایتای ایرانی
+  - DOMAIN-KEYWORD,sermovie.xyz,🇮🇷 سایتای ایرانی
+  - DOMAIN-KEYWORD,mobo-dl-filter-nakon.xyz,🇮🇷 سایتای ایرانی
   - RULE-SET,steam,🎮 استیم
   - RULE-SET,add,🆎 تبلیغات
   - IP-CIDR,23.109.87.42/32,🆎 تبلیغات,no-resolve
