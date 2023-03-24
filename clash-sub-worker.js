@@ -1,5 +1,5 @@
 const maxConfigItems = 500
-const maxPerType = 400
+const maxPerType = 300
 const includeOriginalConfigs = 0
 
 const subLinks = [
@@ -12,9 +12,9 @@ const cnfLinks = [
   "https://raw.githubusercontent.com/mahdibland/ShadowsocksAggregator/master/sub/sub_merge.txt",
   "https://raw.githubusercontent.com/awesome-vpn/awesome-vpn/master/all"
 ]
-const cleanIPLink = "http://bot.sudoer.net/best.cf.iran.all"
-const operatorList = ["AST", "HWB", "IRC", "MBT", "MCI", "MKB", "PRS", "RTL", "SHT", "ZTL"]
-const addressList = ["discord.com", "cloudflare.com", "nginx.com", "cdnjs.com", "vimeo.com", "networksolutions.com", "spotify.com"]
+const cleanIPLink = "https://raw.githubusercontent.com/coldwater-10/clash_rules/main/List%20of%20clean%20IPs.txt"
+const operatorList = ["AST", "HWB", "IRC", "MBT", "MCI", "MKB", "PRS", "RTL", "SHT", "ZTL", "PIS", "DAT", "SAB", "ASR", "FAN", "ZTL", "SFR", "DID", "LAY", "MAH", "TAK", "PET", "ALL", "TEST", "ENG", "FA"]
+const addressList = ["discord.com", "cloudflare.com", "nginx.com", "cdnjs.com", "vimeo.com", "networksolutions.com"]
 const fpList = ["chrome", "chrome", "chrome", "firefox", "safari", "edge", "ios", "android", "random", "random"]
 const alpnList = ["http/1.1", "h2,http/1.1", "h2,http/1.1"]
 var cleanIPs = []
@@ -421,6 +421,13 @@ ${configList.map(cnf => "      - " + cnf.name.trim()).join("\n")}
     proxies:
 ${configList.map(cnf => "      - " + cnf.name.trim()).join("\n")}
 
+  - name: 🎮 استیم
+    type: select
+    proxies:
+      - DIRECT
+      - REJECT
+      - ♻️ خودکار (بهترین پینگ)
+      - 🚀 انتخاب پروکسی
   - name: 🛑 رهگیری جهانی
     type: select
     proxies:
@@ -454,6 +461,10 @@ rules:
   - GEOIP,IR,🇮🇷 سایتای ایرانی
   - DOMAIN-SUFFIX,ir,🇮🇷 سایتای ایرانی
   - RULE-SET,iran,🇮🇷 سایتای ایرانی
+  - DOMAIN-KEYWORD,freeserver.top,🇮🇷 سایتای ایرانی
+  - DOMAIN-KEYWORD,sermovie.xyz,🇮🇷 سایتای ایرانی
+  - DOMAIN-KEYWORD,mobo-dl-filter-nakon.xyz,🇮🇷 سایتای ایرانی
+  - RULE-SET,steam,🎮 استیم
   - RULE-SET,add,🆎 تبلیغات
   - IP-CIDR,23.109.87.42/32,🆎 تبلیغات,no-resolve
   - IP-CIDR,23.109.87.101/32,🆎 تبلیغات,no-resolve
