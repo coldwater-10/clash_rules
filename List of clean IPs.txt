@@ -1625,10 +1625,10 @@ ast.ircf.space			 in :  TEST AST
 sht.ircf.space			 in :  TEST SHT
 prs.ircf.space			 in :  TEST PRS
 mbt.ircf.space			 in :  TEST MBT
-ask.ircf.space			 in :  TEST 
-rsp.ircf.space			 in :  TEST
-afn.ircf.space			 in :  TEST
+ask.ircf.space			 in :  TEST AND
+rsp.ircf.space			 in :  TEST RES
+afn.ircf.space			 in :  TEST AFR
 ztl.ircf.space			 in :  TEST ZTL
 psm.ircf.space			 in :  TEST PIS
-arx.ircf.space			 in :  TEST
-smt.ircf.space			 in :  TEST
+arx.ircf.space			 in :  TEST ARA
+smt.ircf.space			 in :  TEST SAM
