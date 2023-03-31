@@ -5,12 +5,23 @@ const includeOriginalConfigs = 0
 const subLinks = [
   "https://raw.githubusercontent.com/freefq/free/master/v2",
   "https://raw.githubusercontent.com/Pawdroid/Free-servers/main/sub",
+  "https://raw.githubusercontent.com/AzadNetCH/Clash/main/V2Ray.txt",
+  "https://raw.githubusercontent.com/awesome-vpn/awesome-vpn/master/all",
+  "https://sub.pmsub.me/base64",
+  "https://raw.githubusercontent.com/Leon406/SubCrawler/main/sub/share/v2",
+  "https://raw.githubusercontent.com/ermaozi/get_subscribe/main/subscribe/v2ray.txt",
+  "https://raw.githubusercontent.com/xiyaowong/freeFQ/main/v2ray",
+  "https://raw.githubusercontent.com/iwxf/free-v2ray/master/index.html",
+  "https://raw.githubusercontent.com/Jsnzkpg/Jsnzkpg/Jsnzkpg/Jsnzkpg",
   "https://raw.githubusercontent.com/aiboboxx/v2rayfree/main/v2",
-  "https://raw.githubusercontent.com/AzadNetCH/Clash/main/V2Ray.txt"
+  "https://raw.githubusercontent.com/peasoft/NoMoreWalls/master/list.txt",
+  "https://raw.githubusercontent.com/ssrsub/ssr/master/V2Ray",
+  "https://raw.githubusercontent.com/ssrsub/ssr/master/ss-sub",
+  "https://raw.githubusercontent.com/ssrsub/ssr/master/ssrsub",
+  "https://raw.githubusercontent.com/ssrsub/ssr/master/trojan"
 ]
 const cnfLinks = [
-  "https://raw.githubusercontent.com/mahdibland/ShadowsocksAggregator/master/sub/sub_merge.txt",
-  "https://raw.githubusercontent.com/awesome-vpn/awesome-vpn/master/all"
+  "https://raw.githubusercontent.com/mahdibland/ShadowsocksAggregator/master/sub/sub_merge.txt"
 ]
 const cleanIPLink = "https://raw.githubusercontent.com/coldwater-10/clash_rules/main/List%20of%20clean%20IPs.txt"
 const operatorList = ["AST", "HWB", "IRC", "MBT", "MCI", "MKB", "PRS", "RTL", "SHT", "ZTL", "PIS", "DAT", "SAB", "ASR", "FAN", "ZTL", "SFR", "DID", "LAY", "MAH", "TAK", "PET", "AND", "RES", "AFR", "ARA", "SAM", "ALL", "PLUS", "TEST", "ENG", "FA"]
@@ -231,65 +242,73 @@ dns:
   prefer-h3: true
   nameserver-policy:
     geosite:ir:
-      - https://doh.pub/dns-query
-      - https://dns.alidns.com/dns-query
-  default-nameserver:
-    - 1.1.1.1
-    - 114.114.114.114
-    - 8.8.8.8
-    - 112.215.203.254
+    - https://1.1.1.1/dns-query
   enhanced-mode: fake-ip
   listen: 0.0.0.0:7874
   use-host: true
   proxy-server-nameserver:
     - https://1.1.1.1/dns-query
   nameserver:
+    - 'https://1.1.1.1/dns-query#en0'
+    - https://cloudflare-dns.com/dns-query
+    - https://1.1.1.1/dns-query
     - 1.1.1.1
+    - 1.0.0.1
+    - tls://1.0.0.1:853
+    - tls://1.1.1.1:853
+    - tcp://1.1.1.1
+    - tcp://1.1.1.1#en0
+  fallback:
+    - 8.8.8.8
+    - 8.8.4.4
     - 4.2.2.4
+    - 9.9.9.9
     - 119.29.29.29
     - 223.5.5.5
-    - 8.8.8.8
-    - 1.0.0.1
-    - 114.114.114.114
-    - 9.9.9.9
     - 119.28.28.28
+    - 112.215.203.254
+    - 114.114.114.114
+    - 127.0.0.1
+    - 114.114.114.114
+    - 87.118.100.175:110
+    - '8.8.8.8#en0'
     - https://dns.google/dns-query
-    - https://1.1.1.1/dns-query
-    - https://doh.opendns.com/dns-query
-    - https://doh.dns.sb/dns-query
-    - https://doh.pub/dns-query
-    - dhcp://en0
-    - tls://dns.rubyfish.cn:853
-    - tls://dot.pub:853
-  fallback:
-    - https://1.1.1.1/dns-query
     - https://8.8.8.8/dns-query
     - https://9.9.9.9/dns-query
     - https://rubyfish.cn/dns-query
-    - https://cloudflare-dns.com/dns-query
-    - 1.1.1.1
-    - 8.8.4.4
-    - 112.215.203.254
-    - 8.8.8.8
-    - 1.0.0.1
-    - tls://1.0.0.1:853
+    - https://doh.opendns.com/dns-query
+    - https://doh.dns.sb/dns-query
+    - https://doh.pub/dns-query
+    - https://dns.alidns.com/dns-query
+    - dhcp://en0
+    - 'tcp://8.8.8.8#en0'
+    - 'tls://8.8.8.8#en0'
     - tls://dns.google:853
-    - tcp://1.1.1.1
-    - tcp://1.1.1.1#en0
+    - tls://dns.rubyfish.cn:853
+    - tls://dot.pub:853
   fallback-filter:
     geoip: true
     geoip-code: IR
     ipcidr:
-      - 10.0.0.0/8
-      - 100.64.0.0/10
-      - 169.254.0.0/16
-      - 172.16.0.0/12
-      - 192.0.0.0/24
-      - 198.18.0.0/15
-      - 240.0.0.0/4
-      - 64:ff9b:1::/48
-      - fc00::/7
-      - fe80::/64
+      - '0.0.0.0/8'
+      - '10.0.0.0/8'
+      - '100.64.0.0/10'
+      - '127.0.0.0/8'
+      - '169.254.0.0/16'
+      - '172.16.0.0/12'
+      - '192.0.0.0/24'
+      - '192.0.2.0/24'
+      - '192.88.99.0/24'
+      - '192.168.0.0/16'
+      - '198.18.0.0/15'
+      - '198.51.100.0/24'
+      - '203.0.113.0/24'
+      - '224.0.0.0/3'
+      - '240.0.0.0/4'
+      - '::1/128'
+      - '64:ff9b:1::/48'
+      - 'fc00::/7'
+      - 'fe80::/10'
   fake-ip-range: 198.18.0.1/16
   fake-ip-filter:
     - '*.lan'
@@ -384,6 +403,16 @@ dns:
     - '*.ffxiv.com'
     - '*.mcdn.bilivideo.cn'
     - +.media.dssott.com
+
+tun:
+  enable: true
+  stack: system # or gvisor
+  dns-hijack:
+    - any:53
+  auto-redir: true # or false
+  auto-route: true 
+  auto-detect-interface: true
+
 rule-providers:
   iran:
     type: http
@@ -391,13 +420,6 @@ rule-providers:
     url: >-
       https://github.com/bootmortis/iran-hosted-domains/releases/latest/download/clash_rules.yaml
     path: ./ruleset/iran.yaml
-    interval: 432000
-  steam:
-    type: http
-    behavior: classical
-    url: >-
-      https://raw.githubusercontent.com/coldwater-10/clash_rules/main/steam.yaml
-    path: ./ruleset/steam.yaml
     interval: 432000
   add:
     type: http
@@ -412,7 +434,6 @@ rule-providers:
       https://raw.githubusercontent.com/coldwater-10/clash_rules/main/Purification%20app.yaml
     path: ./ruleset/Purification.yaml
     interval: 432000
-    
   Global:
     type: http
     behavior: classical
@@ -420,6 +441,12 @@ rule-providers:
       https://raw.githubusercontent.com/coldwater-10/clash_rules/main/Global%20tracking.yaml
     path: ./ruleset/Global.yaml
     interval: 432000
+  applications:
+    type: http
+    behavior: classical
+    url: "https://cdn.jsdelivr.net/gh/Loyalsoldier/clash-rules@release/applications.txt"
+    path: ./ruleset/applications.yaml
+    interval: 604800
 
 
 proxies:
@@ -439,6 +466,7 @@ ${configList.map(cnf => "      - " + cnf.name.trim()).join("\n")}
     tolerance: 50
     proxies:
 ${configList.map(cnf => "      - " + cnf.name.trim()).join("\n")}
+
   - name: 🎮 استیم
     type: select
     proxies:
@@ -476,15 +504,20 @@ ${configList.map(cnf => "      - " + cnf.name.trim()).join("\n")}
       - 🚀 انتخاب پروکسی
 
 rules:
-  - GEOIP,IR,🇮🇷 سایتای ایرانی
   - DOMAIN-SUFFIX,ir,🇮🇷 سایتای ایرانی
+  - GEOIP,IR,🇮🇷 سایتای ایرانی
+  - GEOSITE,category-ir,🇮🇷 سایتای ایرانی
   - RULE-SET,iran,🇮🇷 سایتای ایرانی
   - DOMAIN-KEYWORD,freeserver.top,🇮🇷 سایتای ایرانی
   - DOMAIN-KEYWORD,sermovie.xyz,🇮🇷 سایتای ایرانی
   - DOMAIN-KEYWORD,mobo-dl-filter-nakon.xyz,🇮🇷 سایتای ایرانی
   - RULE-SET,steam,🎮 استیم
-  - GEOSITE,category-ads-all,🆎 تبلیغات
+  - GEOSITE,category-ads-all,🆎 تبلیغات 
   - RULE-SET,add,🆎 تبلیغات
+  - DOMAIN,ad.com,🆎 تبلیغات
+  - RULE-SET,Purification,🍃 تصفیه برنامه
+  - RULE-SET,Global,🛑 رهگیری جهانی
+  - GEOSITE,win-spy,🛑 رهگیری جهانی
   - IP-CIDR,23.109.87.42/32,🆎 تبلیغات,no-resolve
   - IP-CIDR,23.109.87.101/32,🆎 تبلیغات,no-resolve
   - IP-CIDR,35.232.188.118/32,🆎 تبلیغات,no-resolve
@@ -559,7 +592,6 @@ rules:
   - IP-CIDR,77.162.125.199/32,🆎 تبلیغات,no-resolve
   - IP-CIDR,185.165.169.108/32,🆎 تبلیغات,no-resolve
   - IP-CIDR,185.193.38.148/32,🆎 تبلیغات,no-resolve
-  - RULE-SET,Purification,🍃 تصفیه برنامه
   - IP-CIDR,101.227.200.0/24,🍃 تصفیه برنامه,no-resolve
   - IP-CIDR,101.227.200.11/32,🍃 تصفیه برنامه,no-resolve
   - IP-CIDR,101.227.200.28/32,🍃 تصفیه برنامه,no-resolve
@@ -579,7 +611,6 @@ rules:
   - IP-CIDR,223.87.182.102/32,🍃 تصفیه برنامه,no-resolve
   - IP-CIDR,223.87.182.11/32,🍃 تصفیه برنامه,no-resolve
   - IP-CIDR,223.87.182.52/32,🍃 تصفیه برنامه,no-resolve
-  - RULE-SET,Global,🛑 رهگیری جهانی
   - MATCH,🚀 انتخاب پروکسی
 `
    return yaml
