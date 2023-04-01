@@ -421,6 +421,13 @@ rule-providers:
       https://github.com/bootmortis/iran-hosted-domains/releases/latest/download/clash_rules.yaml
     path: ./ruleset/iran.yaml
     interval: 432000
+  steam:
+    type: http
+    behavior: classical
+    url: >-
+      https://raw.githubusercontent.com/coldwater-10/clash_rules/main/steam.yaml
+    path: ./ruleset/steam.yaml
+    interval: 432000
   add:
     type: http
     behavior: classical
@@ -441,12 +448,6 @@ rule-providers:
       https://raw.githubusercontent.com/coldwater-10/clash_rules/main/Global%20tracking.yaml
     path: ./ruleset/Global.yaml
     interval: 432000
-  applications:
-    type: http
-    behavior: classical
-    url: "https://cdn.jsdelivr.net/gh/Loyalsoldier/clash-rules@release/applications.txt"
-    path: ./ruleset/applications.yaml
-    interval: 604800
 
 
 proxies:
