@@ -12,6 +12,7 @@ payload:
   - DOMAIN-SUFFIX,steampowered.com.8686c.com,
   - DOMAIN-SUFFIX,steamstatic.com.8686c.com,
   - DOMAIN-SUFFIX,steamserver.net,
+  - DOMAIN-SUFFIX,steampipe.akamaized.net,
   - DOMAIN-SUFFIX,steambroadcast.akamaized.net,
   - DOMAIN-SUFFIX,steamcontent.com.c.footprint.net,
   - DOMAIN-SUFFIX,steam-api.com,
