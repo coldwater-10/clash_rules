@@ -16,9 +16,6 @@ const subLinks = [
   "https://raw.githubusercontent.com/aiboboxx/v2rayfree/main/v2",
   "https://raw.githubusercontent.com/peasoft/NoMoreWalls/master/list.txt",
   "https://raw.githubusercontent.com/ssrsub/ssr/master/V2Ray",
-  "https://raw.githubusercontent.com/ssrsub/ssr/master/ss-sub",
-  "https://raw.githubusercontent.com/ssrsub/ssr/master/ssrsub",
-  "https://raw.githubusercontent.com/ssrsub/ssr/master/trojan"
 ]
 const cnfLinks = [
   "https://raw.githubusercontent.com/mahdibland/ShadowsocksAggregator/master/sub/sub_merge.txt"
