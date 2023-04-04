@@ -6,8 +6,6 @@ const subLinks = [
   "https://raw.githubusercontent.com/freefq/free/master/v2",
   "https://raw.githubusercontent.com/Pawdroid/Free-servers/main/sub",
   "https://raw.githubusercontent.com/AzadNetCH/Clash/main/V2Ray.txt",
-  "https://raw.githubusercontent.com/awesome-vpn/awesome-vpn/master/all",
-  "https://sub.pmsub.me/base64",
   "https://raw.githubusercontent.com/Leon406/SubCrawler/main/sub/share/v2",
   "https://raw.githubusercontent.com/ermaozi/get_subscribe/main/subscribe/v2ray.txt",
   "https://raw.githubusercontent.com/xiyaowong/freeFQ/main/v2ray",
@@ -15,10 +13,14 @@ const subLinks = [
   "https://raw.githubusercontent.com/Jsnzkpg/Jsnzkpg/Jsnzkpg/Jsnzkpg",
   "https://raw.githubusercontent.com/aiboboxx/v2rayfree/main/v2",
   "https://raw.githubusercontent.com/peasoft/NoMoreWalls/master/list.txt",
-  "https://raw.githubusercontent.com/ssrsub/ssr/master/V2Ray"
+  "https://raw.githubusercontent.com/ssrsub/ssr/master/V2Ray",
+  "https://raw.fastgit.org/codingbox/Free-Node-Merge/main/node.txt",
+  "https://raw.githubusercontent.com/vpei/Free-Node-Merge/main/o/node.txt",
+  "https://sub.pmsub.me/base64"
 ]
 const cnfLinks = [
-  "https://raw.githubusercontent.com/mahdibland/ShadowsocksAggregator/master/sub/sub_merge.txt"
+  "https://raw.githubusercontent.com/mahdibland/ShadowsocksAggregator/master/sub/sub_merge.txt",
+  "https://raw.githubusercontent.com/awesome-vpn/awesome-vpn/master/all",
 ]
 const cleanIPLink = "https://raw.githubusercontent.com/coldwater-10/clash_rules/main/List%20of%20clean%20IPs.txt"
 const operatorList = ["AST", "HWB", "IRC", "MBT", "MCI", "MKB", "PRS", "RTL", "SHT", "ZTL", "PIS", "DAT", "SAB", "ASR", "FAN", "ZTL", "SFR", "DID", "LAY", "MAH", "TAK", "PET", "AND", "RES", "AFR", "ARA", "SAM", "ALL", "PLUS", "TEST", "ENG", "FA"]
