@@ -20,7 +20,7 @@ const subLinks = [
 ]
 const cnfLinks = [
   "https://raw.githubusercontent.com/mahdibland/ShadowsocksAggregator/master/sub/sub_merge.txt",
-  "https://raw.githubusercontent.com/awesome-vpn/awesome-vpn/master/all",
+  "https://raw.githubusercontent.com/awesome-vpn/awesome-vpn/master/all"
 ]
 const cleanIPLink = "https://raw.githubusercontent.com/coldwater-10/clash_rules/main/List%20of%20clean%20IPs.txt"
 const operatorList = ["AST", "HWB", "IRC", "MBT", "MCI", "MKB", "PRS", "RTL", "SHT", "ZTL", "PIS", "DAT", "SAB", "ASR", "FAN", "ZTL", "SFR", "DID", "LAY", "MAH", "TAK", "PET", "AND", "RES", "AFR", "ARA", "SAM", "ALL", "PLUS", "TEST", "ENG", "FA"]
