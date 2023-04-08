@@ -1626,6 +1626,7 @@ mtn.ircf.space			 in :  PLUS TEST IRC
 mtnx.ircf.space			 in :  PLUS TEST IRC
 rtl.ircf.space			 in :  PLUS TEST RTL
 mkh.ircf.space			 in :  PLUS TEST MKB
+mkhx.ircf.space			 in :  PLUS TEST MKB
 hwb.ircf.space			 in :  PLUS TEST HWB
 ast.ircf.space			 in :  PLUS TEST AST
 sht.ircf.space			 in :  PLUS TEST SHT
