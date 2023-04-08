@@ -2120,4 +2120,4 @@ fnv.ircf.space			 in :  PLUS TEST FAN
 dbn.ircf.space			 in :  PLUS TEST DID
 apt.ircf.space			 in :  PLUS TEST APT
 mci.amiajoketoyou.lol			 in :  PLUS TEST MCI
-mtn.amiajoketoyou.lol      in :  PLUS TEST IRC
+mtn.amiajoketoyou.lol			 in :  PLUS TEST IRC
