@@ -1638,3 +1638,6 @@ ztl.ircf.space			 in :  PLUS TEST ZTL
 psm.ircf.space			 in :  PLUS TEST PIS
 arx.ircf.space			 in :  PLUS TEST ARA
 smt.ircf.space			 in :  PLUS TEST SAM
+fnv.ircf.space			 in :  PLUS TEST FAN
+dbn.ircf.space			 in :  PLUS TEST DID
+apt.ircf.space			 in :  PLUS TEST APT
