@@ -2311,6 +2311,7 @@ yasindesign.ir      		 in :  PLUS FA
 zeinabamiri.com 		 in :  PLUS FA
 mci.ircf.space			 in :  PLUS TEST MCI
 mcix.ircf.space			 in :  PLUS TEST MCI
+mcin.ircf.space			 in :  PLUS TEST MCI
 mtn.ircf.space			 in :  PLUS TEST IRC
 mtnx.ircf.space			 in :  PLUS TEST IRC
 rtl.ircf.space			 in :  PLUS TEST RTL
