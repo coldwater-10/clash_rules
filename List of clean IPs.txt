@@ -743,7 +743,7 @@
 104.27.44.19             in :  PLUS ALL SHT          
 104.27.46.113            in :  PLUS ALL SHT      
 104.27.50.137            in :  PLUS ALL SHT      
-104.27.55.115            in :  PLUS ALL  SHT      
+104.27.55.115            in :  PLUS ALL SHT      
 104.27.68.58             in :  PLUS ALL IRC              
 104.27.74.87             in :  PLUS ALL SHT          
 104.27.79.228            in :  PLUS ALL SHT      
