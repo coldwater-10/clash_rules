@@ -1019,7 +1019,7 @@
 170.114.45.51            in :  PLUS ALL IRC          
 170.114.46.1             in :  PLUS ALL RES          
 170.114.46.125		 in :  PLUS ALL  
-170.114.46.142           in :  PLUS ALL AFR AND APT ARA DID MCI SMT              
+170.114.46.142           in :  PLUS ALL AFR AND APT ARA DID MCI SAM              
 170.114.46.144		 in :  PLUS ALL  
 170.114.46.205           in :  PLUS ALL AFR AND APT ARA DID MCI SAM           
 170.114.46.36            in :  PLUS ALL HWB                       
@@ -2145,7 +2145,7 @@
 91.195.110.254		 in :  PLUS ALL  
 91.199.81.37		 in :  PLUS ALL MKB
 94.140.0.0		 in :  PLUS ALL MCI
-94.140.0.141             in :  PLUS ALL MCI  
+94.140.0.141             in :  PLUS ALL MCI 
 sharray.net				 	 in :  PLUS ENG
 one.one.one.one				 	 in :  PLUS ENG
 blog.cloudflare.com			 	 in :  PLUS ENG
