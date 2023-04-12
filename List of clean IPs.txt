@@ -2608,6 +2608,7 @@ mcix.ircf.space			 in :  PLUS TEST MCI
 mcin.ircf.space			 in :  PLUS TEST MCI
 mtn.ircf.space			 in :  PLUS TEST IRC
 mtnx.ircf.space			 in :  PLUS TEST IRC
+mtnn.ircf.space			 in :  PLUS TEST IRC
 rtl.ircf.space			 in :  PLUS TEST RTL
 mkh.ircf.space			 in :  PLUS TEST MKB
 mkhx.ircf.space			 in :  PLUS TEST MKB
