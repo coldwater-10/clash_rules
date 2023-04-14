@@ -2485,7 +2485,6 @@ cdn2.hubspot.net				 in :  PLUS ENG
 cdnjs.cloudflare.com				 in :  PLUS ENG
 cdnjs.com					 in :  PLUS ENG
 change.org					 in :  PLUS ENG
-chat.opai.com					 in :  PLUS ENG
 chat.openai.com	                        	 in :  PLUS ENG
 chatsiteleri.name.tr		             	 in :  PLUS ENG
 checkforcloudflare.selesti.com		         in :  PLUS ENG
