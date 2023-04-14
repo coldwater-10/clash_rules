@@ -2399,15 +2399,6 @@
 91.199.81.37		 in :  PLUS ALL MKB
 94.140.0.0		 in :  PLUS ALL MCI
 94.140.0.141             in :  PLUS ALL MCI 
-www.speedtest.com				 in :  PLUS ENG
-sharray.net				 	 in :  PLUS ENG
-one.one.one.one				 	 in :  PLUS ENG
-blog.cloudflare.com			 	 in :  PLUS ENG
-developers.cloudflare.com		 	 in :  PLUS ENG
-community.cloudflare.com		 	 in :  PLUS ENG
-portal.cloudflarepartners.com		 	 in :  PLUS ENG
-speed.cloudflare.com				 in :  PLUS ENG
-dictate.ms				 	 in :  PLUS ENG
 000webhost.com				 	 in :  PLUS ENG
 1-notes.com				 	 in :  PLUS ENG
 10fastfingers.com				 in :  PLUS ENG
@@ -2463,8 +2454,10 @@ assets.calendly.com				 in :  PLUS ENG
 athemes.com					 in :  PLUS ENG
 attracta.com					 in :  PLUS ENG
 auth0.opai.com					 in :  PLUS ENG
+auth0.openai.com	                	 in :  PLUS ENG
 bestfreecams.club				 in :  PLUS ENG
 bigcommerce.com					 in :  PLUS ENG
+blog.cloudflare.com			 	 in :  PLUS ENG
 blog.cpanel.com					 in :  PLUS ENG
 blog.hubspot.com			 	 in :  PLUS ENG
 blog.logrocket.com			         in :  PLUS ENG
@@ -2492,6 +2485,7 @@ cdnjs.cloudflare.com				 in :  PLUS ENG
 cdnjs.com					 in :  PLUS ENG
 change.org					 in :  PLUS ENG
 chat.opai.com					 in :  PLUS ENG
+chat.openai.com	                        	 in :  PLUS ENG
 chatsiteleri.name.tr		             	 in :  PLUS ENG
 checkforcloudflare.selesti.com		         in :  PLUS ENG
 chris.pirillo.com	             	 	 in :  PLUS ENG
@@ -2505,6 +2499,7 @@ codep.io					 in :  PLUS ENG
 codepen.io					 in :  PLUS ENG
 cogocast.net				 	 in :  PLUS ENG
 colorlib.com					 in :  PLUS ENG
+community.cloudflare.com		 	 in :  PLUS ENG
 constantcontact.com	          	 	 in :  PLUS ENG
 contribute.jquery.org			         in :  PLUS ENG
 copyright.gov					 in :  PLUS ENG
@@ -2512,6 +2507,8 @@ cpanel.com					 in :  PLUS ENG
 creativecommons.org				 in :  PLUS ENG
 d3js.org					 in :  PLUS ENG
 data.jsdelivr.com				 in :  PLUS ENG
+developers.cloudflare.com		 	 in :  PLUS ENG
+dictate.ms				 	 in :  PLUS ENG
 digg.com			 	         in :  PLUS ENG
 digitalocean.com				 in :  PLUS ENG
 discord.com					 in :  PLUS ENG
@@ -2610,6 +2607,7 @@ notfound.typepad.com				 in :  PLUS ENG
 notion.so					 in :  PLUS ENG
 npmjs.com					 in :  PLUS ENG
 ohio8.vchecks.me			 	 in :  PLUS ENG
+one.one.one.one				 	 in :  PLUS ENG
 onlinelibrary.wiley.com		           	 in :  PLUS ENG
 opencart.com					 in :  PLUS ENG
 opensource.org				 	 in :  PLUS ENG
@@ -2629,6 +2627,7 @@ plesk.com					 in :  PLUS ENG
 plugins.jquery.com				 in :  PLUS ENG
 podbean.com					 in :  PLUS ENG
 podomatic.com					 in :  PLUS ENG
+portal.cloudflarepartners.com		 	 in :  PLUS ENG
 prestashop.com			        	 in :  PLUS ENG
 prnewswire.com					 in :  PLUS ENG
 pro.fontawesome.com			 	 in :  PLUS ENG
@@ -2649,6 +2648,7 @@ securelb.imodules.com				 in :  PLUS ENG
 securitytrails.com				 in :  PLUS ENG
 sedo.com					 in :  PLUS ENG
 shareasale.com					 in :  PLUS ENG
+sharray.net				 	 in :  PLUS ENG
 shields.io					 in :  PLUS ENG
 shopify.com					 in :  PLUS ENG
 shray.net				 	 in :  PLUS ENG
@@ -2657,6 +2657,7 @@ sizzlejs.com				 	 in :  PLUS ENG
 snapwidget.com					 in :  PLUS ENG
 sohbetsitesi.name.tr				 in :  PLUS ENG
 sourceforge.net					 in :  PLUS ENG
+speed.cloudflare.com				 in :  PLUS ENG
 sphinx-doc.org					 in :  PLUS ENG
 squadhelp.com			         	 in :  PLUS ENG
 squareup.com					 in :  PLUS ENG
@@ -2697,6 +2698,7 @@ w3.org					 	 in :  PLUS ENG
 wadny.com					 in :  PLUS ENG
 webmd.com					 in :  PLUS ENG
 who.int					 	 in :  PLUS ENG
+www.speedtest.com				 in :  PLUS ENG
 yelp.com				 	 in :  PLUS ENG
 yetiskinsohbet.name.tr				 in :  PLUS ENG
 zeldman.com					 in :  PLUS ENG
@@ -2857,6 +2859,8 @@ webfa.net 			 in :  PLUS FA
 yaldayekavir.com 		 in :  PLUS FA
 yasindesign.ir      		 in :  PLUS FA
 zeinabamiri.com 		 in :  PLUS FA
+alocontent.com                   in :  PLUS FA
+yoast.com                        in :  PLUS FA
 mci.ircf.space			 in :  PLUS TEST MCI
 mcix.ircf.space			 in :  PLUS TEST MCI
 mcin.ircf.space			 in :  PLUS TEST MCI
