@@ -2399,7 +2399,6 @@
 91.199.81.37		 in :  PLUS ALL MKB
 94.140.0.0		 in :  PLUS ALL MCI
 94.140.0.141             in :  PLUS ALL MCI 
-epicgames.com                                    in :  PLUS ENG
 000webhost.com				 	 in :  PLUS ENG
 1-notes.com				 	 in :  PLUS ENG
 10fastfingers.com				 in :  PLUS ENG
@@ -2450,6 +2449,7 @@ appuals.com				 	 in :  PLUS ENG
 ar15partspro.com				 in :  PLUS ENG
 arnebrachhold.de				 in :  PLUS ENG
 artels.be					 in :  PLUS ENG
+as-sec.casalemedia.com                           in :  PLUS ENG
 assets.bigcartel.com			         in :  PLUS ENG
 assets.calendly.com				 in :  PLUS ENG
 athemes.com					 in :  PLUS ENG
@@ -2462,6 +2462,7 @@ blog.cloudflare.com			 	 in :  PLUS ENG
 blog.cpanel.com					 in :  PLUS ENG
 blog.hubspot.com			 	 in :  PLUS ENG
 blog.logrocket.com			         in :  PLUS ENG
+blog.soundcloud.com                              in :  PLUS ENG
 blogrolling.com					 in :  PLUS ENG
 bluehost.com				 	 in :  PLUS ENG
 boogenstein.com					 in :  PLUS ENG
@@ -2491,7 +2492,7 @@ checkforcloudflare.selesti.com		         in :  PLUS ENG
 chris.pirillo.com	             	 	 in :  PLUS ENG
 clickfunnels.com				 in :  PLUS ENG
 cloudflare.com				 	 in :  PLUS ENG
-cloudfle.com 				 	 in :  PLUS ENG
+cloudflare.net                                   in :  PLUS ENG
 code.ionicframework.com		           	 in :  PLUS ENG
 code.tidio.co					 in :  PLUS ENG
 codecanyon.net					 in :  PLUS ENG
@@ -2524,6 +2525,8 @@ download.moodle.org				 in :  PLUS ENG
 dx.doi.org					 in :  PLUS ENG
 economist.com					 in :  PLUS ENG
 elegantthemes.com				 in :  PLUS ENG
+en.help.roblox.com                               in :  PLUS ENG
+epicgames.com                                    in :  PLUS ENG
 epik.com					 in :  PLUS ENG
 fao.org					 	 in :  PLUS ENG
 fast.fonts.net					 in :  PLUS ENG
@@ -2540,10 +2543,14 @@ getbootstrap.com		           	 in :  PLUS ENG
 git-scm.com					 in :  PLUS ENG
 gitlab.com					 in :  PLUS ENG
 go.facebookinc.com			         in :  PLUS ENG
+gpc.netflix.net                                  in :  PLUS ENG
 gumroad.com					 in :  PLUS ENG
+help.datadoghq.com                               in :  PLUS ENG
 help.dreamhost.com				 in :  PLUS ENG
 help.ft.com				 	 in :  PLUS ENG
 help.hover.com					 in :  PLUS ENG
+help.issuu.com                                   in :  PLUS ENG
+help.name.com                                    in :  PLUS ENG
 homestead.com					 in :  PLUS ENG
 hostmonster.com				 	 in :  PLUS ENG
 ht04.org					 in :  PLUS ENG
@@ -2554,8 +2561,10 @@ i.pinimg.com				 	 in :  PLUS ENG
 ico.org.uk					 in :  PLUS ENG
 id.cpanel.net				 	 in :  PLUS ENG
 ietf.org				 	 in :  PLUS ENG
+ilovepdf.com                                     in :  PLUS ENG
 img.shields.io					 in :  PLUS ENG
 infinityfree.net			 	 in :  PLUS ENG
+ir.zhihu.com                                     in :  PLUS ENG
 istanbulsohbet.name.tr			 	 in :  PLUS ENG
 itch.io					 	 in :  PLUS ENG
 japhthor.com					 in :  PLUS ENG
@@ -2613,6 +2622,7 @@ opencart.com					 in :  PLUS ENG
 opensource.org				 	 in :  PLUS ENG
 opsource.org					 in :  PLUS ENG
 orcid.org					 in :  PLUS ENG
+ozon.ru                                          in :  PLUS ENG
 packtpub.com					 in :  PLUS ENG
 pallels.com					 in :  PLUS ENG
 parallels.com				 	 in :  PLUS ENG
@@ -2632,8 +2642,10 @@ prestashop.com			        	 in :  PLUS ENG
 prnewswire.com					 in :  PLUS ENG
 pro.fontawesome.com			 	 in :  PLUS ENG
 quora.com					 in :  PLUS ENG
+r3.com                                           in :  PLUS ENG
 readthedocs.org					 in :  PLUS ENG
 register.com					 in :  PLUS ENG
+repo.steampowered.com                            in :  PLUS ENG
 res.cloudinary.com				 in :  PLUS ENG
 researchgate.net				 in :  PLUS ENG
 rheinhessenarchiv.de				 in :  PLUS ENG
@@ -2657,6 +2669,7 @@ sizzlejs.com				 	 in :  PLUS ENG
 snapwidget.com					 in :  PLUS ENG
 sohbetsitesi.name.tr				 in :  PLUS ENG
 sourceforge.net					 in :  PLUS ENG
+spankbang.com                                    in :  PLUS ENG
 speed.cloudflare.com				 in :  PLUS ENG
 sphinx-doc.org					 in :  PLUS ENG
 squadhelp.com			         	 in :  PLUS ENG
@@ -2673,6 +2686,7 @@ stopdesign.com				 	 in :  PLUS ENG
 store.cpanel.net			 	 in :  PLUS ENG
 support.cloudflare.com				 in :  PLUS ENG
 support.cpanel.net			 	 in :  PLUS ENG
+support.opendns.com                              in :  PLUS ENG
 support.plesk.com			 	 in :  PLUS ENG
 talk.plesk.com					 in :  PLUS ENG
 tandfonline.com				 	 in :  PLUS ENG
