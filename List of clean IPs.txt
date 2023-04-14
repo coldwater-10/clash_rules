@@ -2399,7 +2399,7 @@
 91.199.81.37		 in :  PLUS ALL MKB
 94.140.0.0		 in :  PLUS ALL MCI
 94.140.0.141             in :  PLUS ALL MCI 
-epicgames.com           in :  PLUS ENG
+epicgames.com                                    in :  PLUS ENG
 000webhost.com				 	 in :  PLUS ENG
 1-notes.com				 	 in :  PLUS ENG
 10fastfingers.com				 in :  PLUS ENG
