@@ -2858,6 +2858,7 @@ mkhx.ircf.space			 in :  PLUS TEST MKB
 hwb.ircf.space			 in :  PLUS TEST HWB
 ast.ircf.space			 in :  PLUS TEST AST
 sht.ircf.space			 in :  PLUS TEST SHT
+shm.ircf.space       in :  PLUS TEST SHT
 prs.ircf.space			 in :  PLUS TEST PRS
 mbt.ircf.space			 in :  PLUS TEST MBT
 ask.ircf.space			 in :  PLUS TEST AND
