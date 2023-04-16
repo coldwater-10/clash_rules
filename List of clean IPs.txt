@@ -2858,7 +2858,7 @@ mkhx.ircf.space			 in :  PLUS TEST MKB
 hwb.ircf.space			 in :  PLUS TEST HWB
 ast.ircf.space			 in :  PLUS TEST AST
 sht.ircf.space			 in :  PLUS TEST SHT
-shm.ircf.space       in :  PLUS TEST SHT
+shm.ircf.space                   in :  PLUS TEST SHT
 prs.ircf.space			 in :  PLUS TEST PRS
 mbt.ircf.space			 in :  PLUS TEST MBT
 ask.ircf.space			 in :  PLUS TEST AND
@@ -2871,5 +2871,6 @@ smt.ircf.space			 in :  PLUS TEST SAM
 fnv.ircf.space			 in :  PLUS TEST FAN
 dbn.ircf.space			 in :  PLUS TEST DID
 apt.ircf.space			 in :  PLUS TEST APT
-mci.amiajoketoyou.lol			 in :  PLUS TEST MCI
-mtn.amiajoketoyou.lol			 in :  PLUS TEST IRC
+mci.amiajoketoyou.lol		 in :  PLUS TEST MCI
+mtn.amiajoketoyou.lol		 in :  PLUS TEST IRC
+isegaro.ddns.net                 in :  PLUS TEST
