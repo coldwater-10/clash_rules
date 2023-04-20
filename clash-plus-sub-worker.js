@@ -466,21 +466,21 @@ proxy-groups:
 
   - name: select 🤏🏻
     type: select
-proxies:
+    proxies:
 ${configList.map(cnf => "      - " + cnf.name.trim()).join("\n")}
 
   - name: UrlTest 📍
     type: url-test
     url: http://clients3.google.com/generate_204
     interval: 300
-proxies:
+    proxies:
 ${configList.map(cnf => "      - " + cnf.name.trim()).join("\n")}
 
   - name: Fallback ➡️
     type: fallback
     url: http://clients3.google.com/generate_204
     interval: 300
-proxies:
+    proxies:
 ${configList.map(cnf => "      - " + cnf.name.trim()).join("\n")}
 
   - name: LoadBalance(ch) ♻️
@@ -488,7 +488,7 @@ ${configList.map(cnf => "      - " + cnf.name.trim()).join("\n")}
     strategy: consistent-hashing
     url: http://clients3.google.com/generate_204
     interval: 300
-proxies:
+    proxies:
 ${configList.map(cnf => "      - " + cnf.name.trim()).join("\n")}
 
   - name: LoadBalance(rr) ⏳
@@ -497,7 +497,7 @@ ${configList.map(cnf => "      - " + cnf.name.trim()).join("\n")}
     url: http://clients3.google.com/generate_204
     interval: 300
     tolerance: 100
-proxies:
+    proxies:
 ${configList.map(cnf => "      - " + cnf.name.trim()).join("\n")}
 
   - name: 🎮 استیم
