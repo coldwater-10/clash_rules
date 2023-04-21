@@ -405,16 +405,16 @@ dns:
     - '*.mcdn.bilivideo.cn'
     - +.media.dssott.com
 
-tun:
-  enable: true
-  stack: system 
-  dns-hijack:
-    - 0.0.0.0:53
-  auto-detect-interface: true
-  auto-route: true
-  auto-redir: true
-  mtu: 9000
-  strict_route: true
+#tun:
+  #enable: true
+  #stack: system 
+  #dns-hijack:
+    #- 0.0.0.0:53
+  #auto-detect-interface: true
+  #auto-route: true
+  #auto-redir: true
+  #mtu: 9000
+  #strict_route: true
 
 rule-providers:
   iran:
