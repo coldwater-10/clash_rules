@@ -446,14 +446,15 @@ dns:
     - '*.ffxiv.com'
     - '*.mcdn.bilivideo.cn'
     - +.media.dssott.com
-tun:
-  enable: true
-  stack: system # or gvisor
-  dns-hijack:
-    - any:53
-  auto-redir: true # or false
-  auto-route: true 
-  auto-detect-interface: true
+#tun:
+  #enable: true
+  #stack: system # or gvisor
+  #dns-hijack:
+    #- any:53
+  #auto-redir: true # or false
+  #auto-route: true 
+  #auto-detect-interface: true
+
 rule-providers:
   iran:
     type: http
