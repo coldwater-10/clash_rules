@@ -239,15 +239,15 @@ profile:
   store-selected: false 
   store-fake-ip: true
 
-tun:
-  enable: true
-  stack: system 
-  dns-hijack:
-    - 0.0.0.0:53
-  auto-detect-interface: true
-  auto-route: true
-  mtu: 9000
-  strict_route: true
+#tun:
+  #enable: true
+  #stack: system 
+  #dns-hijack:
+    #- 0.0.0.0:53
+  #auto-detect-interface: true
+  #auto-route: true
+  #mtu: 9000
+  #strict_route: true
 
 dns:
   enable: true
