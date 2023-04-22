@@ -24,8 +24,8 @@
 
 [پلاس (انواع مختلف نوع اتصال)](https://raw.githubusercontent.com/coldwater-10/clash_rules/main/clashMeta-plus-sub-worker.js)
 
-##  این ورکر هاهم برای کسایی که با گوشی نتونستن کدو سیو کنن
- (برای هنگ کردن یا کامل کپی نشدن کد به علت طولانی بودن)
+##  بقیه ورکر ها
+ (برای کسایی که با گوشی نتونستن کدو ثبت کنن بخاطر هنگ کردن یا کامل کپی نشدن کد به علت طولانی بودن)
 
 [لایت برای کلش](https://raw.githubusercontent.com/coldwater-10/clash_rules/main/clash-Lite-sub-worker.js)
 
