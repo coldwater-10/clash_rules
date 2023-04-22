@@ -11,7 +11,7 @@
 
 [پلاس](https://raw.githubusercontent.com/coldwater-10/clash_rules/main/clash-plus-sub-worker.js) (انواع مختلف نوع اتصال)
 
-## ورکر برای کلش متا:
+## انواع ورکر برای کلش متا:
 [لینک اشتراک فرینود](https://github.com/coldwater-10/clash_rules/blob/main/freenodemeta-sub-worker.js)
 (باید از [سایت فرینود](https://getafreenode.com/?inviter=82060F61-1C03-418D-99D4-D555CECB2FF4) لینک اشتراک بگیرین و چندبار توی کد جایگزین کنینش)
 
@@ -34,6 +34,8 @@
 [برای v2rayN و v2rayN](https://raw.githubusercontent.com/coldwater-10/clash_rules/main/no-clash-sub-worker.js) ( بدون کانفیگ کلش )
 
 [برای NekoBox Android](https://github.com/coldwater-10/clash_rules/blob/main/nekobox-sub-worker.js) ( بدون کانفیگ کلش )
+
+کد اصلی ورکر رو [وحید](https://github.com/vfarid) نوشته من فقط تغییراتی دادم
 
 ## [لیست](https://github.com/coldwater-10/clash_rules/blob/main/List%20of%20clean%20IPs.txt) آیپی و دامین های تمیز کلودفلر
 
