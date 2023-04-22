@@ -9,7 +9,7 @@
 [لینکای اشتراک پروکسی های برتر](https://github.com/coldwater-10/clash_rules/blob/main/fast-sub-worker-clash.js)
 
 
-[پلاس (انواع مختلف نوع اتصال)](https://raw.githubusercontent.com/coldwater-10/clash_rules/main/clash-plus-sub-worker.js)
+[پلاس](https://raw.githubusercontent.com/coldwater-10/clash_rules/main/clash-plus-sub-worker.js) (انواع مختلف نوع اتصال)
 
 ## ورکر برای کلش متا:
 [لینک اشتراک فرینود](https://github.com/coldwater-10/clash_rules/blob/main/freenodemeta-sub-worker.js)
@@ -22,7 +22,7 @@
 [لینکای اشتراک پروکسی های برتر](https://github.com/coldwater-10/clash_rules/blob/main/fast-sub-worker-clash%20Meta.js)
 
 
-[پلاس (انواع مختلف نوع اتصال)](https://raw.githubusercontent.com/coldwater-10/clash_rules/main/clashMeta-plus-sub-worker.js)
+[پلاس](https://raw.githubusercontent.com/coldwater-10/clash_rules/main/clashMeta-plus-sub-worker.js) (انواع مختلف نوع اتصال)
 
 ##  بقیه ورکر ها
  (برای کسایی که با گوشی نتونستن کدو ثبت کنن بخاطر هنگ کردن یا کامل کپی نشدن کد به علت طولانی بودن)
@@ -31,9 +31,9 @@
 
 [لایت برای کلش متا](https://raw.githubusercontent.com/coldwater-10/clash_rules/main/clashMeta-Lite-sub-worker.js)
 
-[برای v2rayN و v2rayN ( بدون کانفیگ کلش )](https://raw.githubusercontent.com/coldwater-10/clash_rules/main/no-clash-sub-worker.js)
+[برای v2rayN و v2rayN](https://raw.githubusercontent.com/coldwater-10/clash_rules/main/no-clash-sub-worker.js) ( بدون کانفیگ کلش )
 
-[برای NekoBox Android (بدون کانفیگ کلش)](https://github.com/coldwater-10/clash_rules/blob/main/nekobox-sub-worker.js)
+[برای NekoBox Android](https://github.com/coldwater-10/clash_rules/blob/main/nekobox-sub-worker.js) ( بدون کانفیگ کلش )
 
 ## [لیست](https://github.com/coldwater-10/clash_rules/blob/main/List%20of%20clean%20IPs.txt) آیپی و دامین های تمیز کلودفلر
 
