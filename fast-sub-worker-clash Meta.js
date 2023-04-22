@@ -461,6 +461,13 @@ rule-providers:
       https://raw.githubusercontent.com/coldwater-10/clash_rules/main/Global%20tracking.yaml
     path: ./ruleset/Global.yaml
     interval: 432000
+  AntiAd:
+    type: http
+    behavior: domain
+    url: >-
+      https://raw.githubusercontent.com/privacy-protection-tools/anti-AD/master/anti-ad-clash.yaml
+    path: ./ruleset/AntiAd.yaml
+    interval: 432000
 
 proxies:
 ${configList.map(cnf => "  - " + JSON.stringify(cnf)).join("\n")}
@@ -527,7 +534,7 @@ rules:
   - RULE-SET,steam,🎮 استیم
   - GEOSITE,category-ads-all,🆎 تبلیغات 
   - RULE-SET,add,🆎 تبلیغات
-  - DOMAIN,ad.com,🆎 تبلیغات
+  - RULE-SET,AntiAd,🆎 تبلیغات
   - RULE-SET,Purification,🍃 تصفیه برنامه
   - RULE-SET,Global,🛑 رهگیری جهانی
   - GEOSITE,win-spy,🛑 رهگیری جهانی
