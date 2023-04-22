@@ -62,7 +62,7 @@ https://***.workers.dev/clash/AST  آسیاتک 🔰
 
 https://***.workers.dev/clash/IRC ایرانسل  🔰✅🧍🏻‍♂️
 
-https://***.workers.dev/clash/SHT شاتل 🔰
+https://***.workers.dev/clash/SHT شاتل 🔰✅
 
 https://***.workers.dev/clash/MKB مخابرات 🔰✅
 
