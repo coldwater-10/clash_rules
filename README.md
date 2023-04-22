@@ -1,7 +1,6 @@
 # Vpnclashfa
 ## انواع ورکر برای کلش:
 [فرینود](https://github.com/coldwater-10/clash_rules/blob/main/freenode-sub-worker.js)
-
 باید از [سایت فرینود](https://getafreenode.com/?inviter=82060F61-1C03-418D-99D4-D555CECB2FF4) لینک اشتراک بگیرین و چندبار توی کد جایگزین کنینش
 
 [لینکای اشتراک پروکسی](https://github.com/coldwater-10/clash_rules/blob/main/clash-sub-worker.js)
@@ -14,7 +13,6 @@
 
 ## ورکر برای کلش متا:
 [فرینود](https://github.com/coldwater-10/clash_rules/blob/main/freenodemeta-sub-worker.js)
-
 باید از [سایت فرینود](https://getafreenode.com/?inviter=82060F61-1C03-418D-99D4-D555CECB2FF4) لینک اشتراک بگیرین و چندبار توی کد جایگزین کنینش
 
 
@@ -38,7 +36,7 @@
 [برای NekoBox Android (بدون کانفیگ کلش)](https://github.com/coldwater-10/clash_rules/blob/main/nekobox-sub-worker.js)
 
 ## لیست آپی و دامین های تمیز کلودفلر
-[list](https://github.com/coldwater-10/clash_rules/blob/main/List%20of%20clean%20IPs.txt)
+[لیست](https://github.com/coldwater-10/clash_rules/blob/main/List%20of%20clean%20IPs.txt)
 
 ## [تمپلت برای سایت (v2rayse)](https://v2rayse.com/en)
 [برای کلش](https://github.com/coldwater-10/clash_rules/blob/main/clashtemplate%40vpnclashfa.txt)
