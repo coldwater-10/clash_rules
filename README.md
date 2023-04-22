@@ -48,19 +48,19 @@
 [برای کلش متا](https://github.com/coldwater-10/clash_rules/blob/main/clashmetatemplate%40vpnclashfa.txt)
 
 ## توضیحات نحوه استفاده از ورکر
-وقتی کد یکی از این ورکر ها رو توی سایت [کلودفلر](https://dash.cloudflare.com) سیو کردین (قبل جایگذاری حتما کد پیشفرض رو پاک کنید)
+وقتی کد یکی از این ورکر ها رو توی سایت [کلودفلر](https://dash.cloudflare.com) سیو کردین (قبل جایگذاری حتما کد پیشفرض رو پاک کنین)
 
 بعد به آخر آدرس ورکر برای کلش و کلش متا باید clash برای بقیه اپ ها باید sub رو اضافه کنین و بعدش هم مخفف اپراتورتون یا آیپی تمیز بزارین
 
 نمونه برای کلش
 
-https://***.workers.dev/clash/MCI همراه اول 🔰✅🤵🏻‍♂️
+https://***.workers.dev/clash/MCI همراه اول 🔰✅🧍🏻‍♂️
 
 https://***.workers.dev/clash/RTL رایتل 🔰
 
 https://***.workers.dev/clash/AST  آسیاتک 🔰
 
-https://***.workers.dev/clash/IRC ایرانسل  🔰✅🤵🏻‍♂️
+https://***.workers.dev/clash/IRC ایرانسل  🔰✅🧍🏻‍♂️
 
 https://***.workers.dev/clash/SHT شاتل 🔰
 
@@ -108,11 +108,11 @@ https://***.workers.dev/clash/SAM سامانتل 🔰
 
 https://***.workers.dev/clash/APT آپتل 🔰
 
-https://***.workers.dev/clash/TEST   همه ساب دامین ها🔰🤵🏻‍♂️👨🏻‍💻
+https://***.workers.dev/clash/TEST   همه ساب دامین ها🔰🧍🏻‍♂️👨🏻‍💻
 
 https://***.workers.dev/clash/ALL همه آیپی ها ✅
 
-https://***.workers.dev/clash/PLUS کلشون 🔰✅ 🌐🤵🏻‍♂️👨🏻‍💻
+https://***.workers.dev/clash/PLUS کلشون 🔰✅🌐🧍🏻‍♂️👨🏻‍💻
 
 https://***.workers.dev/clash/ENG سایتای خارجی 🌐
 
@@ -124,7 +124,7 @@ https://***.workers.dev/clash/FA سایتای ایرانی 🌐
 
 🔰ساب دامین [ircf](https://ircf.space/list.php) دارن
 
-🤵🏻‍♂️ساب دامین [Amir Jalilian](https://twitter.com/amirjaliliann) دارن
+🧍🏻‍♂️ساب دامین [Amir Jalilian](https://twitter.com/amirjaliliann) دارن
 
 👨🏻‍💻ساب دامین [سگارو](https://twitter.com/iSegaro) دارن
 
