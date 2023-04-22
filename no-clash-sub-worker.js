@@ -14,14 +14,20 @@ const subLinks = [
   "https://raw.githubusercontent.com/aiboboxx/v2rayfree/main/v2",
   "https://raw.githubusercontent.com/peasoft/NoMoreWalls/master/list.txt",
   "https://raw.githubusercontent.com/ssrsub/ssr/master/V2Ray",
+  "https://raw.githubusercontent.com/ssrsub/ssr/master/ss-sub",
+  "https://raw.githubusercontent.com/ssrsub/ssr/master/trojan",
   "https://raw.fastgit.org/codingbox/Free-Node-Merge/main/node.txt",
   "https://raw.githubusercontent.com/vpei/Free-Node-Merge/main/o/node.txt",
   "https://sub.pmsub.me/base64"
 ]
 const cnfLinks = [
   "https://raw.githubusercontent.com/mahdibland/ShadowsocksAggregator/master/sub/sub_merge.txt",
+  "https://raw.githubusercontent.com/hossein-mohseni/Free-V2ray-Config/main/configs.txt",
+  "https://raw.githubusercontent.com/Bardiafa/Free-V2ray-Config/main/Splitted/vmess.txt",
+  "https://raw.githubusercontent.com/Bardiafa/Free-V2ray-Config/main/Splitted/trojan.txt",
+  "https://raw.githubusercontent.com/Bardiafa/Free-V2ray-Config/main/Splitted/ss.txt",
   "https://raw.githubusercontent.com/mahdibland/ShadowsocksAggregator/master/Eternity.txt",
-  "https://raw.githubusercontent.com/mahdibland/ShadowsocksAggregator/master/Eternity.txt",
+  "https://raw.githubusercontent.com/LonUp/NodeList/main/V2RAY/Latest.txt",
   "https://raw.githubusercontent.com/awesome-vpn/awesome-vpn/master/all"
 ]
 const cleanIPLink = "https://raw.githubusercontent.com/coldwater-10/clash_rules/main/List%20of%20clean%20IPs.txt"
