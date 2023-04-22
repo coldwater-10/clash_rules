@@ -38,7 +38,7 @@
 ## لیست آپی و دامین های تمیز کلودفلر
 [لیست](https://github.com/coldwater-10/clash_rules/blob/main/List%20of%20clean%20IPs.txt)
 
-## [تمپلت برای سایت (v2rayse)](https://v2rayse.com/en)
+## تمپلت برای [سایت (v2rayse)](https://v2rayse.com/en)
 [برای کلش](https://github.com/coldwater-10/clash_rules/blob/main/clashtemplate%40vpnclashfa.txt)
 
 
