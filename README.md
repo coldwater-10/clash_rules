@@ -1,7 +1,7 @@
 # Vpnclashfa
 ## انواع ورکر برای کلش:
 [لینک اشتراک فرینود](https://github.com/coldwater-10/clash_rules/blob/main/freenode-sub-worker.js)
-باید از [سایت فرینود](https://getafreenode.com/?inviter=82060F61-1C03-418D-99D4-D555CECB2FF4) لینک اشتراک بگیرین و چندبار توی کد جایگزین کنینش
+(باید از [سایت فرینود](https://getafreenode.com/?inviter=82060F61-1C03-418D-99D4-D555CECB2FF4) لینک اشتراک بگیرین و چندبار توی کد جایگزین کنینش)
 
 [لینکای اشتراک پروکسی](https://github.com/coldwater-10/clash_rules/blob/main/clash-sub-worker.js)
 
@@ -13,7 +13,7 @@
 
 ## ورکر برای کلش متا:
 [لینک اشتراک فرینود](https://github.com/coldwater-10/clash_rules/blob/main/freenodemeta-sub-worker.js)
-باید از [سایت فرینود](https://getafreenode.com/?inviter=82060F61-1C03-418D-99D4-D555CECB2FF4) لینک اشتراک بگیرین و چندبار توی کد جایگزین کنینش
+(باید از [سایت فرینود](https://getafreenode.com/?inviter=82060F61-1C03-418D-99D4-D555CECB2FF4) لینک اشتراک بگیرین و چندبار توی کد جایگزین کنینش)
 
 
 [لینکای اشتراک پروکسی](https://github.com/coldwater-10/clash_rules/blob/main/clashmeta-sub-worker.js)
