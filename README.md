@@ -35,8 +35,8 @@
 
 [برای NekoBox Android (بدون کانفیگ کلش)](https://github.com/coldwater-10/clash_rules/blob/main/nekobox-sub-worker.js)
 
-## لیست آپی و دامین های تمیز کلودفلر
-[لیست](https://github.com/coldwater-10/clash_rules/blob/main/List%20of%20clean%20IPs.txt)
+## [لیست](https://github.com/coldwater-10/clash_rules/blob/main/List%20of%20clean%20IPs.txt) آیپی و دامین های تمیز کلودفلر
+
 
 ## تمپلت برای [سایت (v2rayse)](https://v2rayse.com/en)
 [برای کلش](https://github.com/coldwater-10/clash_rules/blob/main/clashtemplate%40vpnclashfa.txt)
