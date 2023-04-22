@@ -444,13 +444,19 @@ rule-providers:
       https://raw.githubusercontent.com/coldwater-10/clash_rules/main/Purification%20app.yaml
     path: ./ruleset/Purification.yaml
     interval: 432000
-    
   Global:
     type: http
     behavior: classical
     url: >-
       https://raw.githubusercontent.com/coldwater-10/clash_rules/main/Global%20tracking.yaml
     path: ./ruleset/Global.yaml
+    interval: 432000
+  AntiAd:
+    type: http
+    behavior: domain
+    url: >-
+      https://raw.githubusercontent.com/privacy-protection-tools/anti-AD/master/anti-ad-clash.yaml
+    path: ./ruleset/AntiAd.yaml
     interval: 432000
 
 proxies:
@@ -516,7 +522,7 @@ rules:
   - DOMAIN-KEYWORD,mobo-dl-filter-nakon.xyz,🇮🇷 سایتای ایرانی
   - RULE-SET,steam,🎮 استیم
   - RULE-SET,add,🆎 تبلیغات
-  - DOMAIN,ad.com,🆎 تبلیغات
+  - RULE-SET,AntiAd,🆎 تبلیغات
   - RULE-SET,Purification,🍃 تصفیه برنامه
   - RULE-SET,Global,🛑 رهگیری جهانی
   - IP-CIDR,23.109.87.42/32,🆎 تبلیغات,no-resolve
