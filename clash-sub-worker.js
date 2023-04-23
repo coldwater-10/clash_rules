@@ -6,28 +6,22 @@ const subLinks = [
   "https://raw.githubusercontent.com/freefq/free/master/v2",
   "https://raw.githubusercontent.com/Pawdroid/Free-servers/main/sub",
   "https://raw.githubusercontent.com/AzadNetCH/Clash/main/V2Ray.txt",
-  "https://raw.githubusercontent.com/Leon406/SubCrawler/main/sub/share/v2",
   "https://raw.githubusercontent.com/ermaozi/get_subscribe/main/subscribe/v2ray.txt",
   "https://raw.githubusercontent.com/xiyaowong/freeFQ/main/v2ray",
   "https://raw.githubusercontent.com/iwxf/free-v2ray/master/index.html",
   "https://raw.githubusercontent.com/Jsnzkpg/Jsnzkpg/Jsnzkpg/Jsnzkpg",
   "https://raw.githubusercontent.com/aiboboxx/v2rayfree/main/v2",
-  "https://raw.githubusercontent.com/peasoft/NoMoreWalls/master/list.txt",
   "https://raw.githubusercontent.com/ssrsub/ssr/master/V2Ray",
   "https://raw.fastgit.org/codingbox/Free-Node-Merge/main/node.txt",
-  "https://raw.githubusercontent.com/vpei/Free-Node-Merge/main/o/node.txt",
   "https://sub.pmsub.me/base64"
 ]
 const cnfLinks = [
-  "https://raw.githubusercontent.com/mahdibland/ShadowsocksAggregator/master/sub/sub_merge.txt",
   "https://raw.githubusercontent.com/AlienVPN402/AlienVPN402-subscribe-servers/main/index.html",
-  "https://raw.githubusercontent.com/hossein-mohseni/Free-V2ray-Config/main/configs.txt",
-  "https://raw.githubusercontent.com/Bardiafa/Free-V2ray-Config/main/Splitted/vmess.txt",
   "https://raw.githubusercontent.com/LonUp/NodeList/main/V2RAY/Latest.txt",
   "https://raw.githubusercontent.com/awesome-vpn/awesome-vpn/master/all"
 ]
 const cleanIPLink = "https://raw.githubusercontent.com/coldwater-10/clash_rules/main/List%20of%20clean%20IPs.txt"
-const operatorList = ["AST", "HWB", "IRC", "MBT", "MCI", "MKB", "PRS", "RTL", "SHT", "ZTL", "PIS", "DAT", "SAB", "ASR", "FAN", "ZTL", "SFR", "DID", "LAY", "MAH", "TAK", "PET", "AND", "RES", "AFR", "ARA", "SAM", "APT", "ALL", "PLUS", "TEST", "ENG", "FA"]
+const operatorList = ["AST", "HWB", "IRC", "MBT", "MCI", "MKB", "PRS", "RTL", "SHT", "ZTL", "PIS", "DAT", "SAB", "ASR", "FAN", "ZTL", "SFR", "DID", "LAY", "MAH", "TAK", "PET", "AND", "RES", "AFR", "ARA", "SAM", "APT", "ALL", "PLUS", "TEST", "ENG", "FA", "IPV6"]
 const addressList = ["discord.com", "cloudflare.com", "nginx.com", "cdnjs.com", "vimeo.com", "networksolutions.com"]
 const fpList = ["chrome", "chrome", "chrome", "firefox", "safari", "edge", "ios", "android", "360", "qq", "random", "random"]
 const alpnList = ["http/1.1", "h2,http/1.1", "h2,http/1.1"]
@@ -186,6 +180,8 @@ function isIp(str) {
   return false
 }
 
+let proxyCount = 1;
+
 function toClash(conf, protocol) {
   const regexUUID = /^[0-9a-fA-F]{8}\b-[0-9a-fA-F]{4}\b-[0-9a-fA-F]{4}\b-[0-9a-fA-F]{4}\b-[0-9a-fA-F]{12}$/gi
   var config = {}
@@ -209,7 +205,8 @@ function toClash(conf, protocol) {
         }
       }
     }
-    config.name = config.name.replace(/[^\x20-\x7E]/g, "").replace(/[\s\/:|\[\]@\(\)\.]/g, "") + "-" + Math.floor(Math.random() * 10000)
+    config.name = config.name.replace(/[^\x20-\x7E]/g, "").replace(/[\s\/:|\[\]@\(\)\.]/g, "") + "-" + proxyCount;
+    proxyCount++;
     if (!regexUUID.test(config.uuid)) {
       return {}
     }
