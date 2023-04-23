@@ -10,6 +10,7 @@
 103.172.110.113          in :  PLUS ALL MCI           
 103.172.111.104          in :  PLUS ALL IRC          
 103.22.202.9		 in :  PLUS ALL MCI
+104.16.102.167           in :  PLUS ALL IRC
 104.16.106.32            in :  PLUS ALL MCI AFR AND APT ARA DID SMT                    
 104.16.106.58            in :  PLUS ALL SHT      
 104.16.106.75		 in :  PLUS ALL MCI
@@ -51,6 +52,7 @@
 104.16.172.226           in :  PLUS ALL MCI      
 104.16.172.52		 in :  PLUS ALL MCI
 104.16.173.197		 in :  PLUS ALL MCI
+104.16.174.240           in :  PLUS ALL IRC
 104.16.175.171		 in :  PLUS ALL MCI
 104.16.176.60            in :  PLUS ALL SHT           
 104.16.176.84		 in :  PLUS ALL MCI
@@ -239,12 +241,15 @@
 104.16.213.82            in :  PLUS ALL MCI      
 104.16.215.196           in :  PLUS ALL SHT      
 104.16.215.212           in :  PLUS ALL SHT      
+104.16.219.230           in :  PLUS ALL MCI
 104.16.221.99            in :  PLUS ALL SHT      
+104.16.227.194           in :  PLUS ALL MCI
 104.16.230.28            in :  PLUS ALL SHT      
 104.16.244.57            in :  PLUS ALL IRC          
 104.16.245.32            in :  PLUS ALL SHT
 104.16.246.91            in :  PLUS ALL MCI                   
 104.16.247.139           in :  PLUS ALL SHT          
+104.16.247.64            in :  PLUS ALL MCI
 104.16.250.250           in :  PLUS ALL MCI                        
 104.16.252.190		 in :  PLUS ALL MCI
 104.16.252.233           in :  PLUS ALL SHT      
@@ -377,6 +382,7 @@
 104.17.23.5		 in :  PLUS ALL MCI
 104.17.23.78		 in :  PLUS ALL MCI
 104.17.230.221           in :  PLUS ALL SHT      
+104.17.234.107           in :  PLUS ALL MCI
 104.17.234.87            in :  PLUS ALL HWB               
 104.17.235.104           in :  PLUS ALL IRC                  
 104.17.235.69            in :  PLUS ALL MCI      
@@ -399,6 +405,7 @@
 104.17.40.189            in :  PLUS ALL SHT           
 104.17.40.79             in :  PLUS ALL IRC      
 104.17.41.24		 in :  PLUS ALL MCI
+104.17.42.10             in :  PLUS ALL MCI
 104.17.45.123            in :  PLUS ALL IRC                  
 104.17.45.41             in :  PLUS ALL MCI      
 104.17.47.58             in :  PLUS ALL MCI              
@@ -549,6 +556,7 @@
 104.17.88.18		 in :  PLUS ALL MCI SAB
 104.17.88.19		 in :  PLUS ALL MCI SAB
 104.17.88.20		 in :  PLUS ALL MCI SAB
+104.17.88.212            in :  PLUS ALL MCI
 104.17.88.22 		 in :  PLUS ALL SAB 
 104.17.88.24		 in :  PLUS ALL MCI SAB
 104.17.88.25		 in :  PLUS ALL MCI SAB
@@ -578,6 +586,8 @@
 104.17.96.174            in :  PLUS ALL SHT      
 104.18.0.169		 in :  PLUS ALL MCI 
 104.18.10.128            in :  PLUS ALL MCI                 
+104.18.103.231           in :  PLUS ALL SHT
+104.18.104.166           in :  PLUS ALL MCI
 104.18.104.237           in :  PLUS ALL MCI      
 104.18.107.129           in :  PLUS ALL IRC                  
 104.18.109.255           in :  PLUS ALL SHT      
@@ -589,7 +599,9 @@
 104.18.136.18            in :  PLUS ALL MCI      
 104.18.139.42            in :  PLUS ALL MCI      
 104.18.14.42             in :  PLUS ALL MCI      
+104.18.14.75             in :  PLUS ALL MCI
 104.18.140.189           in :  PLUS ALL SHT        
+104.18.143.114           in :  PLUS ALL SHT
 104.18.143.201           in :  PLUS ALL MCI       
 104.18.144.224           in :  PLUS ALL SHT         
 104.18.144.64            in :  PLUS ALL MCI      
@@ -637,6 +649,7 @@
 104.18.34.104            in :  PLUS ALL SHT       
 104.18.35.8              in :  PLUS ALL SHT                               
 104.18.4.62              in :  PLUS ALL IRC                 
+104.18.40.50             in :  PLUS ALL SHT
 104.18.40.89             in :  PLUS ALL MCI                  
 104.18.42.134            in :  PLUS ALL MCI           
 104.18.42.27             in :  PLUS ALL SHT      
@@ -657,6 +670,7 @@
 104.18.77.0              in :  PLUS ALL IRC                 
 104.18.84.193            in :  PLUS ALL MCI           
 104.18.87.143            in :  PLUS ALL MCI                          
+104.18.87.20             in :  PLUS ALL IRC
 104.18.90.72		 in :  PLUS ALL MCI
 104.19.0.141             in :  PLUS ALL SHT
 104.19.0.78              in :  PLUS ALL SHT      
@@ -664,6 +678,7 @@
 104.19.116.25		 in :  PLUS ALL MCI
 104.19.120.131		 in :  PLUS ALL MCI
 104.19.121.147           in :  PLUS ALL MCI                           
+104.19.122.54            in :  PLUS ALL SHT
 104.19.123.39            in :  PLUS ALL MCI      
 104.19.132.255		 in :  PLUS ALL MCI
 104.19.136.144           in :  PLUS ALL MCI      
@@ -673,6 +688,7 @@
 104.19.156.232           in :  PLUS ALL MCI      
 104.19.16.19             in :  PLUS ALL SHT      
 104.19.160.122		 in :  PLUS ALL MCI
+104.19.163.81            in :  PLUS ALL MCI
 104.19.165.93		 in :  PLUS ALL MCI
 104.19.169.155           in :  PLUS ALL SHT          
 104.19.17.163            in :  PLUS ALL SHT      
@@ -681,6 +697,7 @@
 104.19.177.114           in :  PLUS ALL MCI          
 104.19.186.112           in :  PLUS ALL SHT      
 104.19.187.115           in :  PLUS ALL MCI          
+104.19.187.184           in :  PLUS ALL MCI
 104.19.191.160		 in :  PLUS ALL MCI
 104.19.192.190           in :  PLUS ALL IRC      
 104.19.195.16            in :  PLUS ALL SHT      
@@ -697,6 +714,7 @@
 104.19.211.220           in :  PLUS ALL IRC             
 104.19.211.42		 in :  PLUS ALL MCI MKB
 104.19.213.99		 in :  PLUS ALL MCI
+104.19.218.1             in :  PLUS ALL SHT
 104.19.218.142           in :  PLUS ALL IRC              
 104.19.220.249           in :  PLUS ALL MCI          
 104.19.222.250           in :  PLUS ALL SHT          
@@ -718,6 +736,7 @@
 104.19.248.212		 in :  PLUS ALL MCI
 104.19.249.153           in :  PLUS ALL IRC                  
 104.19.27.36             in :  PLUS ALL SHT      
+104.19.3.251             in :  PLUS ALL SHT
 104.19.30.230		 in :  PLUS ALL MCI
 104.19.31.165            in :  PLUS ALL IRC      
 104.19.34.68             in :  PLUS ALL SHT      
@@ -790,6 +809,7 @@
 104.20.21.111            in :  PLUS ALL MCI                  
 104.20.210.108           in :  PLUS ALL MCI      
 104.20.210.171		 in :  PLUS ALL MCI
+104.20.213.49            in :  PLUS ALL SHT
 104.20.214.3             in :  PLUS ALL SHT      
 104.20.216.45            in :  PLUS ALL SHT      
 104.20.221.63            in :  PLUS ALL MCI      
@@ -798,6 +818,7 @@
 104.20.234.179		 in :  PLUS ALL MCI MKB
 104.20.238.152           in :  PLUS ALL SHT          
 104.20.24.12		 in :  PLUS ALL MCI MKB
+104.20.243.149           in :  PLUS ALL SHT
 104.20.244.46            in :  PLUS ALL MCI                   
 104.20.245.185		 in :  PLUS ALL MCI
 104.20.250.42            in :  PLUS ALL MCI      
@@ -822,6 +843,7 @@
 104.20.74.45             in :  PLUS ALL MCI                   
 104.20.75.115            in :  PLUS ALL MCI      
 104.20.76.143            in :  PLUS ALL SHT           
+104.20.76.183            in :  PLUS ALL MCI
 104.20.77.154            in :  PLUS ALL SHT                          
 104.20.78.62             in :  PLUS ALL MCI         
 104.20.80.39             in :  PLUS ALL MCI      
@@ -864,6 +886,7 @@
 104.21.199.234		 in :  PLUS ALL MCI
 104.21.201.33            in :  PLUS ALL AST           
 104.21.203.115           in :  PLUS ALL SHT      
+104.21.209.139           in :  PLUS ALL MCI
 104.21.211.74            in :  PLUS ALL MCI              
 104.21.22.51             in :  PLUS ALL SHT      
 104.21.220.87            in :  PLUS ALL MCI      
@@ -877,6 +900,7 @@
 104.21.33.121            in :  PLUS ALL SHT      
 104.21.33.129            in :  PLUS ALL MCI              
 104.21.34.217            in :  PLUS ALL SHT      
+104.21.35.200            in :  PLUS ALL MCI
 104.21.37.55		 in :  PLUS ALL MCI MKB
 104.21.38.139            in :  PLUS ALL SHT      
 104.21.40.42             in :  PLUS ALL SHT      
@@ -898,6 +922,7 @@
 104.21.70.205            in :  PLUS ALL SHT      
 104.21.72.104            in :  PLUS ALL MCI      
 104.21.8.94              in :  PLUS ALL SHT      
+104.21.82.191            in :  PLUS ALL IRC
 104.21.82.216            in :  PLUS ALL SHT      
 104.21.84.14             in :  PLUS ALL MCI        
 104.21.85.19             in :  PLUS ALL SHT          
@@ -909,6 +934,7 @@
 104.21.94.129            in :  PLUS ALL SHT          
 104.21.99.196            in :  PLUS ALL MCI                 
 104.22.11.124            in :  PLUS ALL MCI          
+104.22.11.129            in :  PLUS ALL MBT
 104.22.11.221		 in :  PLUS ALL MCI
 104.22.126.191           in :  PLUS ALL IRC          
 104.22.150.170           in :  PLUS ALL SHT      
@@ -932,6 +958,7 @@
 104.22.4.136             in :  PLUS ALL MCI                   
 104.22.43.178            in :  PLUS ALL SHT      
 104.22.45.136            in :  PLUS ALL MCI      
+104.22.46.60             in :  PLUS ALL MCI
 104.22.48.156            in :  PLUS ALL MCI      
 104.22.51.241            in :  PLUS ALL MCI                    
 104.22.55.161            in :  PLUS ALL MCI      
@@ -941,6 +968,7 @@
 104.22.69.113            in :  PLUS ALL SHT      
 104.22.7.20 		 in :  PLUS ALL  
 104.22.72.194		 in :  PLUS ALL MCI
+104.22.75.105            in :  PLUS ALL MCI
 104.22.75.49		 in :  PLUS ALL MCI
 104.22.76.203            in :  PLUS ALL IRC                 
 104.22.78.15             in :  PLUS ALL SHT      
@@ -963,6 +991,11 @@
 104.23.143.223           in :  PLUS ALL SHT      
 104.23.82.127		 in :  PLUS ALL MCI
 104.23.99.18		 in :  PLUS ALL MCI
+104.234.158.18           in :  PLUS ALL MKB
+104.234.158.188          in :  PLUS ALL IRC
+104.24.0.25              in :  PLUS ALL IRC
+104.24.0.26              in :  PLUS ALL MKB
+104.24.0.9               in :  PLUS ALL IRC
 104.24.1.69              in :  PLUS ALL MCI           
 104.24.11.194		 in :  PLUS ALL MCI MKB
 104.24.12.212            in :  PLUS ALL MCI          
@@ -990,6 +1023,7 @@
 104.24.161.123           in :  PLUS ALL MCI                   
 104.24.161.99		 in :  PLUS ALL MCI MKB
 104.24.162.133           in :  PLUS ALL SHT      
+104.24.170.230           in :  PLUS ALL SHT
 104.24.172.124           in :  PLUS ALL SHT          
 104.24.173.123           in :  PLUS ALL MCI          
 104.24.175.73            in :  PLUS ALL SHT          
@@ -1016,6 +1050,8 @@
 104.24.241.28            in :  PLUS ALL MCI      
 104.24.242.94		 in :  PLUS ALL MCI MKB
 104.24.242.95            in :  PLUS ALL SHT          
+104.24.243.200           in :  PLUS ALL SHT
+104.24.243.211           in :  PLUS ALL SHT
 104.24.244.32            in :  PLUS ALL MCI      
 104.24.245.92            in :  PLUS ALL SHT      
 104.24.32.155		 in :  PLUS ALL MCI MKB
@@ -1024,7 +1060,9 @@
 104.24.37.167            in :  PLUS ALL MCI                
 104.24.37.248            in :  PLUS ALL SHT      
 104.24.38.166            in :  PLUS ALL MCI      
+104.24.38.25             in :  PLUS ALL SHT
 104.24.40.218            in :  PLUS ALL IRC                  
+104.24.48.45             in :  PLUS ALL MCI
 104.24.66.191            in :  PLUS ALL IRC                
 104.24.67.145            in :  PLUS ALL MCI          
 104.24.7.155		 in :  PLUS ALL MCI MKB
@@ -1042,6 +1080,7 @@
 104.24.95.200		 in :  PLUS ALL MKB
 104.25.120.95            in :  PLUS ALL SHT          
 104.25.121.174           in :  PLUS ALL IRC                 
+104.25.132.207           in :  PLUS ALL IRC
 104.25.140.171		 in :  PLUS ALL MCI MKB
 104.25.141.188		 in :  PLUS ALL MCI MKB
 104.25.145.17            in :  PLUS ALL MCI      
@@ -1107,7 +1146,9 @@
 104.25.90.13		 in :  PLUS ALL MCI MKB
 104.25.91.25		 in :  PLUS ALL MCI MKB
 104.25.92.142            in :  PLUS ALL MCI      
+104.25.92.182            in :  PLUS ALL MCI
 104.25.92.198            in :  PLUS ALL MCI           
+104.25.92.198            in :  PLUS ALL MCI
 104.25.96.249            in :  PLUS ALL SHT      
 104.25.99.169            in :  PLUS ALL MCI              
 104.254.140.158		 in :  PLUS ALL  
@@ -1139,6 +1180,7 @@
 104.27.16.107            in :  PLUS ALL SHT      
 104.27.18.58             in :  PLUS ALL MCI          
 104.27.19.155            in :  PLUS ALL MCI      
+104.27.192.175           in :  PLUS ALL MCI
 104.27.197.147           in :  PLUS ALL MCI      
 104.27.197.225           in :  PLUS ALL SHT          
 104.27.200.70            in :  PLUS ALL MCI                
@@ -1167,6 +1209,7 @@
 104.27.77.102            in :  PLUS ALL MCI      
 104.27.78.27             in :  PLUS ALL SHT      
 104.27.79.228            in :  PLUS ALL SHT         
+104.27.8.117             in :  PLUS ALL SHT
 104.27.80.106            in :  PLUS ALL MCI         
 104.27.81.6              in :  PLUS ALL SHT      
 104.27.82.180            in :  PLUS ALL MCI      
@@ -1179,6 +1222,7 @@
 104.27.97.174            in :  PLUS ALL MCI                    
 104.27.97.199            in :  PLUS ALL SHT      
 104.27.97.42             in :  PLUS ALL MCI                
+104.27.98.214            in :  PLUS ALL MCI
 104.27.98.54             in :  PLUS ALL MCI      
 104.28.0.232             in :  PLUS ALL IRC                   
 104.28.41.242            in :  PLUS ALL IRC          
@@ -1211,7 +1255,7 @@
 108.61.166.75            in :  PLUS ALL MKB          
 108.61.167.30            in :  PLUS ALL MKB          
 108.61.170.104           in :  PLUS ALL IRC                  
-108.61.188.217           in :  PLUS ALL IRC               
+108.61.188.217           in :  PLUS ALL IRC MKB             
 108.61.189.140           in :  PLUS ALL MKB          
 134.244.87.64            in :  PLUS ALL IRC      
 136.244.103.136          in :  PLUS ALL MBT          
@@ -1263,6 +1307,7 @@
 159.112.235.150          in :  PLUS ALL SHT          
 159.112.235.168          in :  PLUS ALL SHT      
 159.112.235.233		 in :  PLUS ALL  
+159.112.235.29           in :  PLUS ALL SHT
 159.112.235.51		 in :  PLUS ALL  
 159.112.235.83		 in :  PLUS ALL MCI
 159.112.235.94           in :  PLUS ALL RTL      
@@ -1296,6 +1341,7 @@
 162.158.80.55            in :  PLUS ALL MCI          
 162.158.82.140           in :  PLUS ALL SHT          
 162.159.1.120            in :  PLUS ALL MCI      
+162.159.1.94             in :  PLUS ALL MCI
 162.159.12.177           in :  PLUS ALL PRS                          
 162.159.128.28		 in :  PLUS ALL MCI SAB 
 162.159.128.31           in :  PLUS ALL SHT      
@@ -1386,13 +1432,84 @@
 168.100.6.29		 in :  PLUS ALL  
 168.100.6.35             in :  PLUS ALL MCI         
 168.100.6.38		 in :  PLUS ALL MKB
+170.114.45.10            in :  PLUS ALL SHT
+170.114.45.100           in :  PLUS ALL SHT
+170.114.45.108           in :  PLUS ALL SHT
+170.114.45.109           in :  PLUS ALL SHT
+170.114.45.112           in :  PLUS ALL SHT
 170.114.45.120           in :  PLUS ALL ZTL                        
+170.114.45.124           in :  PLUS ALL SHT
+170.114.45.125           in :  PLUS ALL SHT
+170.114.45.128           in :  PLUS ALL SHT
+170.114.45.131           in :  PLUS ALL SHT
+170.114.45.14            in :  PLUS ALL SHT
+170.114.45.140           in :  PLUS ALL SHT
+170.114.45.143           in :  PLUS ALL SHT
+170.114.45.147           in :  PLUS ALL SHT
+170.114.45.151           in :  PLUS ALL  SHT
+170.114.45.153           in :  PLUS ALL SHT
+170.114.45.157           in :  PLUS ALL SHT
+170.114.45.159           in :  PLUS ALL SHT
 170.114.45.164           in :  PLUS ALL SHT      
+170.114.45.165           in :  PLUS ALL SHT
+170.114.45.167           in :  PLUS ALL SHT
+170.114.45.17            in :  PLUS ALL SHT
+170.114.45.172           in :  PLUS ALL SHT
+170.114.45.173           in :  PLUS ALL SHT
+170.114.45.176           in :  PLUS ALL SHT
+170.114.45.178           in :  PLUS ALL SHT
+170.114.45.18            in :  PLUS ALL SHT
+170.114.45.180           in :  PLUS ALL SHT
+170.114.45.185           in :  PLUS ALL SHT
+170.114.45.188           in :  PLUS ALL SHT
+170.114.45.190           in :  PLUS ALL SHT
 170.114.45.2             in :  PLUS ALL MCI                  
-170.114.45.250           in :  PLUS ALL MCI AFR AND APT ARA DID SAM                   
+170.114.45.202           in :  PLUS ALL SHT
+170.114.45.203           in :  PLUS ALL SHT
+170.114.45.204           in :  PLUS ALL SHT
+170.114.45.205           in :  PLUS ALL SHT
+170.114.45.207           in :  PLUS ALL SHT
+170.114.45.208           in :  PLUS ALL SHT
+170.114.45.209           in :  PLUS ALL SHT
+170.114.45.212           in :  PLUS ALL SHT
+170.114.45.22            in :  PLUS ALL SHT
+170.114.45.226           in :  PLUS ALL SHT
+170.114.45.23            in :  PLUS ALL SHT
+170.114.45.231           in :  PLUS ALL SHT
+170.114.45.232           in :  PLUS ALL SHT
+170.114.45.24            in :  PLUS ALL SHT
+170.114.45.242           in :  PLUS ALL SHT
+170.114.45.247           in :  PLUS ALL SHT
+170.114.45.25            in :  PLUS ALL SHT
+170.114.45.250           in :  PLUS ALL MCI AFR AND APT ARA DID SAM SHT                  
+170.114.45.253           in :  PLUS ALL SHT
+170.114.45.26            in :  PLUS ALL SHT
+170.114.45.28            in :  PLUS ALL SHT
+170.114.45.29            in :  PLUS ALL SHT
+170.114.45.30            in :  PLUS ALL SHT
 170.114.45.34		 in :  PLUS ALL  
+170.114.45.35            in :  PLUS ALL SHT
+170.114.45.44            in :  PLUS ALL SHT
 170.114.45.45            in :  PLUS ALL MCI                           
+170.114.45.46            in :  PLUS ALL SHT
+170.114.45.50            in :  PLUS ALL SHT
 170.114.45.51            in :  PLUS ALL IRC          
+170.114.45.52            in :  PLUS ALL SHT
+170.114.45.53            in :  PLUS ALL SHT
+170.114.45.59            in :  PLUS ALL SHT
+170.114.45.60            in :  PLUS ALL SHT
+170.114.45.65            in :  PLUS ALL SHT
+170.114.45.66            in :  PLUS ALL SHT
+170.114.45.69            in :  PLUS ALL SHT
+170.114.45.7             in :  PLUS ALL SHT
+170.114.45.71            in :  PLUS ALL SHT
+170.114.45.73            in :  PLUS ALL SHT
+170.114.45.74            in :  PLUS ALL SHT
+170.114.45.78            in :  PLUS ALL SHT
+170.114.45.79            in :  PLUS ALL SHT
+170.114.45.85            in :  PLUS ALL SHT
+170.114.45.88            in :  PLUS ALL SHT
+170.114.45.90            in :  PLUS ALL SHT
 170.114.45.95            in :  PLUS ALL SHT      
 170.114.46.1             in :  PLUS ALL RES          
 170.114.46.125		 in :  PLUS ALL  
@@ -1423,6 +1540,7 @@
 172.64.138.225           in :  PLUS ALL SHT         
 172.64.138.78            in :  PLUS ALL IRC                 
 172.64.145.223           in :  PLUS ALL IRC          
+172.64.149.1             in :  PLUS ALL SHT
 172.64.150.2             in :  PLUS ALL MCI         
 172.64.152.177           in :  PLUS ALL SHT          
 172.64.156.100           in :  PLUS ALL MCI           
@@ -1435,6 +1553,7 @@
 172.64.193.230           in :  PLUS ALL MCI      
 172.64.196.187           in :  PLUS ALL MCI                 
 172.64.201.212           in :  PLUS ALL MCI                        
+172.64.202.92            in :  PLUS ALL SHT
 172.64.213.83            in :  PLUS ALL MCI                         
 172.64.229.46            in :  PLUS ALL SHT         
 172.64.248.243           in :  PLUS ALL MCI                         
@@ -1443,6 +1562,7 @@
 172.64.36.88             in :  PLUS ALL MCI                  
 172.64.37.208            in :  PLUS ALL MCI             
 172.64.38.67             in :  PLUS ALL MCI      
+172.64.42.4              in :  PLUS ALL MCI
 172.64.44.9              in :  PLUS ALL MCI       
 172.64.47.118            in :  PLUS ALL IRC          
 172.64.53.1              in :  PLUS ALL MCI      
@@ -1457,10 +1577,11 @@
 172.65.128.132           in :  PLUS ALL SHT          
 172.65.13.122		 in :  PLUS ALL MCI
 172.65.13.220		 in :  PLUS ALL MCI
-172.65.130.132           in :  PLUS ALL MCI               
+172.65.130.132           in :  PLUS ALL MCI SHT              
 172.65.132.23            in :  PLUS ALL SHT      
 172.65.137.125           in :  PLUS ALL MCI           
 172.65.14.217            in :  PLUS ALL MCI           
+172.65.142.238           in :  PLUS ALL SHT
 172.65.143.157           in :  PLUS ALL SHT      
 172.65.15.134            in :  PLUS ALL IRC                
 172.65.158.105           in :  PLUS ALL IRC          
@@ -1486,6 +1607,7 @@
 172.65.24.61             in :  PLUS ALL SHT                               
 172.65.241.18            in :  PLUS ALL SHT      
 172.65.245.118           in :  PLUS ALL MCI      
+172.65.247.125           in :  PLUS ALL SHT
 172.65.247.164		 in :  PLUS ALL MCI
 172.65.248.52            in :  PLUS ALL SHT       
 172.65.29.31             in :  PLUS ALL MCI          
@@ -1495,11 +1617,14 @@
 172.65.42.92             in :  PLUS ALL IRC      
 172.65.43.62             in :  PLUS ALL SHT          
 172.65.49.65             in :  PLUS ALL MCI          
+172.65.5.111             in :  PLUS ALL SHT
 172.65.51.33             in :  PLUS ALL IRC          
 172.65.51.37             in :  PLUS ALL SHT      
+172.65.54.27             in :  PLUS ALL SHT
 172.65.56.215            in :  PLUS ALL MCI        
 172.65.57.200            in :  PLUS ALL MCI      
 172.65.59.111            in :  PLUS ALL SHT      
+172.65.61.238            in :  PLUS ALL MCI
 172.65.64.243            in :  PLUS ALL MCI          
 172.65.69.164            in :  PLUS ALL SHT      
 172.65.7.250             in :  PLUS ALL MCI      
@@ -1511,6 +1636,7 @@
 172.65.94.179            in :  PLUS ALL MCI      
 172.65.97.41             in :  PLUS ALL IRC          
 172.66.41.105            in :  PLUS ALL MCI      
+172.66.45.29             in :  PLUS ALL MCI
 172.67.104.157		 in :  PLUS ALL MCI
 172.67.107.58            in :  PLUS ALL MCI      
 172.67.110.160           in :  PLUS ALL MCI      
@@ -1536,6 +1662,7 @@
 172.67.209.249           in :  PLUS ALL MCI      
 172.67.214.41            in :  PLUS ALL MCI           
 172.67.218.239           in :  PLUS ALL SHT          
+172.67.232.125           in :  PLUS ALL SHT
 172.67.248.235           in :  PLUS ALL MCI      
 172.67.251.76            in :  PLUS ALL SHT          
 172.67.26.241            in :  PLUS ALL IRC          
@@ -1557,12 +1684,15 @@
 172.68.137.60            in :  PLUS ALL MCI      
 172.68.145.22		 in :  PLUS ALL MCI
 172.68.168.75            in :  PLUS ALL SHT          
+172.68.176.91            in :  PLUS ALL MCI
 172.68.19.138            in :  PLUS ALL SHT      
 172.68.202.234           in :  PLUS ALL MCI          
 172.68.39.88             in :  PLUS ALL MCI         
 172.68.62.168            in :  PLUS ALL MCI      
+172.68.72.159            in :  PLUS ALL SHT
 172.69.21.53             in :  PLUS ALL MCI          
 172.69.213.138           in :  PLUS ALL SHT          
+172.69.32.19             in :  PLUS ALL SHT
 172.69.62.39             in :  PLUS ALL SHT      
 172.70.109.130           in :  PLUS ALL SHT      
 172.70.134.113           in :  PLUS ALL SHT      
@@ -1573,6 +1703,7 @@
 172.70.245.16            in :  PLUS ALL SHT      
 172.70.246.51            in :  PLUS ALL MCI          
 172.70.251.118           in :  PLUS ALL MCI          
+172.70.33.82             in :  PLUS ALL MCI
 172.70.41.149            in :  PLUS ALL MCI      
 172.70.64.195            in :  PLUS ALL MCI      
 172.70.7.254             in :  PLUS ALL MCI       
@@ -1600,11 +1731,19 @@
 185.135.9.3              in :  PLUS ALL SHT          
 185.148.104.102		 in :  PLUS ALL   
 185.148.104.154		 in :  PLUS ALL MCI
+185.148.104.157          in :  PLUS ALL SHT
+185.148.104.233          in :  PLUS ALL SHT
+185.148.104.247          in :  PLUS ALL SHT
 185.148.105.163		 in :  PLUS ALL    
 185.148.105.178		 in :  PLUS ALL MCI
 185.148.105.242		 in :  PLUS ALL  
+185.148.106.18           in :  PLUS ALL SHT
 185.148.106.189          in :  PLUS ALL SHT             
 185.148.106.213		 in :  PLUS ALL MCI
+185.148.106.250          in :  PLUS ALL SHT
+185.148.106.38           in :  PLUS ALL SHT
+185.148.106.48           in :  PLUS ALL SHT
+185.148.107.174          in :  PLUS ALL SHT
 185.148.107.176		 in :  PLUS ALL  
 185.148.107.180		 in :  PLUS ALL  
 185.148.107.19		 in :  PLUS ALL   
@@ -1612,6 +1751,9 @@
 185.148.107.203		 in :  PLUS ALL  
 185.148.107.213		 in :  PLUS ALL  
 185.148.107.218          in :  PLUS ALL SHT      
+185.148.107.248          in :  PLUS ALL SHT
+185.148.107.29           in :  PLUS ALL SHT
+185.148.107.35           in :  PLUS ALL SHT
 185.148.107.76		 in :  PLUS ALL  
 185.162.228.108          in :  PLUS ALL SHT           
 185.162.228.203		 in :  PLUS ALL  
@@ -1645,11 +1787,15 @@
 185.176.24.25		 in :  PLUS ALL  
 185.176.24.31		 in :  PLUS ALL   
 185.176.24.74		 in :  PLUS ALL MCI
+185.176.26.143           in :  PLUS ALL SHT
 185.176.26.173		 in :  PLUS ALL MCI 
 185.176.26.67		 in :  PLUS ALL MCI
+185.18.250.103           in :  PLUS ALL MCI
 185.18.250.129		 in :  PLUS ALL MCI
+185.18.250.227           in :  PLUS ALL MCI
 185.18.250.35		 in :  PLUS ALL  
 185.18.250.5		 in :  PLUS ALL MCI
+185.18.250.51            in :  PLUS ALL AFR AND APT ARA DID MCI SAM
 185.193.28.27		 in :  PLUS ALL    
 185.193.28.44		 in :  PLUS ALL MCI  
 185.193.28.51            in :  PLUS ALL SHT          
@@ -1673,6 +1819,7 @@
 185.201.139.68           in :  PLUS ALL MBT                                       
 185.221.160.156		 in :  PLUS ALL  
 185.221.160.160		 in :  PLUS ALL  
+185.221.160.208          in :  PLUS ALL SHT
 185.221.160.222          in :  PLUS ALL IRC        
 185.221.160.239		 in :  PLUS ALL  
 185.221.160.3		 in :  PLUS ALL MCI
@@ -1694,6 +1841,7 @@
 185.72.49.102		 in :  PLUS ALL MCI
 185.72.49.103		 in :  PLUS ALL    
 185.72.49.151		 in :  PLUS ALL MCI
+188.114.97.3             in :  PLUS ALL RTL
 188.42.88.163		 in :  PLUS ALL MCI
 188.42.88.166		 in :  PLUS ALL  
 188.42.88.212		 in :  PLUS ALL  
@@ -1795,6 +1943,7 @@
 192.65.217.138           in :  PLUS ALL IRC      
 192.65.217.14		 in :  PLUS ALL   
 192.65.217.15            in :  PLUS ALL IRC      
+192.65.217.164           in :  PLUS ALL PRS
 192.65.217.194		 in :  PLUS ALL MCI
 192.65.217.213           in :  PLUS ALL IRC        
 192.65.217.230           in :  PLUS ALL IRC      
@@ -1817,6 +1966,7 @@
 193.227.99.233		 in :  PLUS ALL MCI
 193.227.99.27            in :  PLUS ALL SHT            
 193.227.99.39            in :  PLUS ALL SHT      
+193.227.99.54            in :  PLUS ALL SHT
 193.67.144.1             in :  PLUS ALL RES          
 193.9.49.101             in :  PLUS ALL SHT             
 193.9.49.13              in :  PLUS ALL MCI               
@@ -1840,6 +1990,7 @@
 195.137.167.81		 in :  PLUS ALL MCI
 195.137.167.99		 in :  PLUS ALL MCI 
 195.245.221.128          in :  PLUS ALL SHT      
+195.245.221.143          in :  PLUS ALL SHT
 195.245.221.18		 in :  PLUS ALL MCI
 195.245.221.231          in :  PLUS ALL SHT      
 195.85.23.109		 in :  PLUS ALL  
@@ -1848,9 +1999,16 @@
 195.85.23.208		 in :  PLUS ALL MCI  
 195.85.23.58		 in :  PLUS ALL MCI
 195.85.23.95		 in :  PLUS ALL  
+195.85.59.101            in :  PLUS ALL SHT
+195.85.59.102            in :  PLUS ALL SHT
 195.85.59.12		 in :  PLUS ALL   
+195.85.59.154            in :  PLUS ALL SHT
+195.85.59.174            in :  PLUS ALL SHT
+195.85.59.204            in :  PLUS ALL SHT
 195.85.59.224		 in :  PLUS ALL MCI  
-195.85.59.238		 in :  PLUS ALL MCI
+195.85.59.238		 in :  PLUS ALL MCI SHT
+195.85.59.242            in :  PLUS ALL SHT
+195.85.59.44             in :  PLUS ALL SHT
 195.85.59.45		 in :  PLUS ALL   
 195.85.59.5		 in :  PLUS ALL MCI
 195.85.59.68             in :  PLUS ALL MKB      
@@ -1885,6 +2043,7 @@
 198.41.218.20 		 in :  PLUS ALL SAB 
 198.41.218.5 		 in :  PLUS ALL SAB 
 198.41.218.7 		 in :  PLUS ALL SAB 
+198.41.219.1             in :  PLUS ALL MBT
 198.41.220.11            in :  PLUS ALL MCI      
 198.41.220.223           in :  PLUS ALL MCI                 
 198.41.221.159           in :  PLUS ALL SHT      
@@ -1961,6 +2120,7 @@
 203.29.54.113            in :  PLUS ALL SHT      
 203.29.54.147		 in :  PLUS ALL  
 203.29.54.189		 in :  PLUS ALL  
+203.29.54.250            in :  PLUS ALL SHT
 203.29.54.252		 in :  PLUS ALL  
 203.29.55.239		 in :  PLUS ALL  
 203.29.55.46		 in :  PLUS ALL  
@@ -2015,6 +2175,7 @@
 212.110.134.254          in :  PLUS ALL MKB      
 212.110.135.15		 in :  PLUS ALL MCI
 212.110.135.158		 in :  PLUS ALL  
+212.110.135.202          in :  PLUS ALL SHT
 212.110.135.59		 in :  PLUS ALL  
 212.110.135.60		 in :  PLUS ALL MCI MKB
 212.110.135.89           in :  PLUS ALL SHT      
@@ -2117,15 +2278,22 @@
 45.142.120.139		 in :  PLUS ALL MCI
 45.142.120.141           in :  PLUS ALL SHT          
 45.142.120.154		 in :  PLUS ALL MCI
+45.142.120.218           in :  PLUS ALL SHT
 45.142.120.235		 in :  PLUS ALL   
 45.142.120.56		 in :  PLUS ALL MCI
 45.159.216.152		 in :  PLUS ALL   
+45.159.216.165           in :  PLUS ALL MCI
 45.159.216.17		 in :  PLUS ALL MCI
+45.159.216.189           in :  PLUS ALL MCI
+45.159.216.243           in :  PLUS ALL MCI
+45.159.216.97            in :  PLUS ALL MCI
 45.159.217.109           in :  PLUS ALL MCI               
 45.159.217.113		 in :  PLUS ALL  
 45.159.217.186           in :  PLUS ALL MCI              
+45.159.217.194           in :  PLUS ALL MCI
 45.159.217.239		 in :  PLUS ALL MCI 
 45.159.217.39		 in :  PLUS ALL MCI
+45.159.217.45            in :  PLUS ALL MCI
 45.159.218.151		 in :  PLUS ALL  
 45.159.218.155		 in :  PLUS ALL MCI
 45.159.218.180		 in :  PLUS ALL  
@@ -2711,6 +2879,7 @@
 89.116.250.238		 in :  PLUS ALL  
 89.116.250.37		 in :  PLUS ALL MCI 
 89.116.250.43		 in :  PLUS ALL MCI
+89.116.250.47            in :  PLUS ALL SHT
 89.116.250.55            in :  PLUS ALL MCI       
 89.116.250.61		 in :  PLUS ALL MCI
 89.116.250.99		 in :  PLUS ALL  
@@ -2725,7 +2894,9 @@
 94.140.0.201             in :  PLUS ALL MCI          
 95.179.150.14            in :  PLUS ALL IRC          
 95.179.155.229           in :  PLUS ALL IRC           
-95.179.155.253           in :  PLUS ALL IRC             
+95.179.155.253           in :  PLUS ALL IRC 
+95.179.176.242           in :  PLUS ALL MBT
+95.179.189.4             in :  PLUS ALL AST           
 000webhost.com				 	 in :  PLUS ENG
 10fastfingers.com				 in :  PLUS ENG
 4chan.org					 in :  PLUS ENG			
