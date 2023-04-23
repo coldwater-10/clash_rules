@@ -67,7 +67,7 @@ const subLinks = [
 const cnfLinks = [ 
 ]
 const cleanIPLink = "https://raw.githubusercontent.com/coldwater-10/clash_rules/main/List%20of%20clean%20IPs.txt"
-const operatorList = ["AST", "HWB", "IRC", "MBT", "MCI", "MKB", "PRS", "RTL", "SHT", "ZTL", "PIS", "DAT", "SAB", "ASR", "FAN", "ZTL", "SFR", "DID", "LAY", "MAH", "TAK", "PET", "AND", "RES", "AFR", "ARA", "SAM", "APT", "ALL", "PLUS", "TEST", "ENG", "FA"]
+const operatorList = ["AST", "HWB", "IRC", "MBT", "MCI", "MKB", "PRS", "RTL", "SHT", "ZTL", "PIS", "DAT", "SAB", "ASR", "FAN", "ZTL", "SFR", "DID", "LAY", "MAH", "TAK", "PET", "AND", "RES", "AFR", "ARA", "SAM", "APT", "ALL", "PLUS", "TEST", "ENG", "FA", "IPV6"]
 const addressList = ["discord.com", "cloudflare.com", "nginx.com", "cdnjs.com", "vimeo.com", "networksolutions.com"]
 const fpList = ["chrome", "chrome", "chrome", "firefox", "safari", "edge", "ios", "android", "360", "qq", "random", "random"]
 const alpnList = ["http/1.1", "h2,http/1.1", "h2,http/1.1"]
@@ -181,7 +181,7 @@ function mixConfig(conf, url, protocol) {
     if (!addr) {
       return conf
     }
-    conf.name = (conf.name ? conf.name : conf.ps) + '-vpnclashfa'
+    conf.name = (conf.name ? conf.name : conf.ps) + '-Worker'
     conf.sni = url.hostname
     if (cleanIPs.length) {
       conf.add = cleanIPs[Math.floor(Math.random() * cleanIPs.length)]
@@ -226,6 +226,8 @@ function isIp(str) {
   return false
 }
 
+let proxyCount = 1;
+
 function toClash(conf, protocol) {
   const regexUUID = /^[0-9a-fA-F]{8}\b-[0-9a-fA-F]{4}\b-[0-9a-fA-F]{4}\b-[0-9a-fA-F]{4}\b-[0-9a-fA-F]{12}$/gi
   var config = {}
@@ -249,7 +251,8 @@ function toClash(conf, protocol) {
         }
       }
     }
-    config.name = config.name.replace(/[^\x20-\x7E]/g, "").replace(/[\s\/:|\[\]@\(\)\.]/g, "") + "-" + Math.floor(Math.random() * 10000)
+    config.name = config.name.replace(/[^\x20-\x7E]/g, "").replace(/[\s\/:|\[\]@\(\)\.]/g, "") + "-" + proxyCount;
+    proxyCount++;
     if (!regexUUID.test(config.uuid)) {
       return {}
     }
