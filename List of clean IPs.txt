@@ -5015,36 +5015,35 @@ zula.ir	                         in :  PLUS FA
 ::ffff:6815:3197                 in :  IPV6
 ::ffff:6810:e20a                 in :  IPV6
 ::ffff:6810:ed29                 in :  IPV6
-mci.ircf.space			 in :  PLUS TEST MCI
-mcix.ircf.space			 in :  PLUS TEST MCI
-mcin.ircf.space			 in :  PLUS TEST MCI
-mtn.ircf.space			 in :  PLUS TEST IRC
-mtnx.ircf.space			 in :  PLUS TEST IRC
-mtnn.ircf.space			 in :  PLUS TEST IRC
-rtl.ircf.space			 in :  PLUS TEST RTL
-mkh.ircf.space			 in :  PLUS TEST MKB
-mkhx.ircf.space			 in :  PLUS TEST MKB
-hwb.ircf.space			 in :  PLUS TEST HWB
-ast.ircf.space			 in :  PLUS TEST AST
-sht.ircf.space			 in :  PLUS TEST SHT
-shm.ircf.space			 in :  PLUS TEST SHT
-prs.ircf.space			 in :  PLUS TEST PRS
-mbt.ircf.space			 in :  PLUS TEST MBT
-ask.ircf.space			 in :  PLUS TEST AND
-rsp.ircf.space			 in :  PLUS TEST RES
-afn.ircf.space			 in :  PLUS TEST AFR
-ztl.ircf.space			 in :  PLUS TEST ZTL
-psm.ircf.space			 in :  PLUS TEST PIS
-arx.ircf.space			 in :  PLUS TEST ARA
-smt.ircf.space			 in :  PLUS TEST SAM
-fnv.ircf.space			 in :  PLUS TEST FAN
-dbn.ircf.space			 in :  PLUS TEST DID
-apt.ircf.space			 in :  PLUS TEST APT
-fnp.ircf.space			 in :  PLUS TEST FNP 
-ryn.ircf.space			 in :  PLUS TEST RYN
+mci.ircf.space			 in :  PLUS TEST MCI IRCF
+mcix.ircf.space			 in :  PLUS TEST MCI IRCF
+mcin.ircf.space			 in :  PLUS TEST MCI IRCF
+mtn.ircf.space			 in :  PLUS TEST IRC IRCF
+mtnx.ircf.space			 in :  PLUS TEST IRC IRCF
+mtnn.ircf.space			 in :  PLUS TEST IRC IRCF
+rtl.ircf.space			 in :  PLUS TEST RTL IRCF
+mkh.ircf.space			 in :  PLUS TEST MKB IRCF
+mkhx.ircf.space			 in :  PLUS TEST MKB IRCF
+hwb.ircf.space			 in :  PLUS TEST HWB IRCF
+ast.ircf.space			 in :  PLUS TEST AST IRCF
+sht.ircf.space			 in :  PLUS TEST SHT IRCF
+shm.ircf.space			 in :  PLUS TEST SHT IRCF
+prs.ircf.space			 in :  PLUS TEST PRS IRCF
+mbt.ircf.space			 in :  PLUS TEST MBT IRCF
+ask.ircf.space			 in :  PLUS TEST AND IRCF
+rsp.ircf.space			 in :  PLUS TEST RES IRCF
+afn.ircf.space			 in :  PLUS TEST AFR IRCF
+ztl.ircf.space			 in :  PLUS TEST ZTL IRCF
+psm.ircf.space			 in :  PLUS TEST PIS IRCF
+arx.ircf.space			 in :  PLUS TEST ARA IRCF
+smt.ircf.space			 in :  PLUS TEST SAM IRCF
+fnv.ircf.space			 in :  PLUS TEST FAN IRCF
+dbn.ircf.space			 in :  PLUS TEST DID IRCF
+apt.ircf.space			 in :  PLUS TEST APT IRCF
+fnp.ircf.space			 in :  PLUS TEST FNP IRCF
+ryn.ircf.space			 in :  PLUS TEST RYN IRCF
 mci.amiajoketoyou.lol		 in :  PLUS TEST MCI
 mtn.amiajoketoyou.lol		 in :  PLUS TEST IRC
-isegaro.ddns.net                 in :  PLUS TEST
 mci.eqjgkx.xyz			 in :  PLUS TEST MCI
 irc.eqjgkx.xyz			 in :  PLUS TEST IRC
 rtl.eqjgkx.xyz			 in :  PLUS TEST RTL
@@ -5078,3 +5077,4 @@ mkb.jangal.icu			 in :  PLUS TEST MKB
 sht.jangal.icu			 in :  PLUS TEST SHT
 mcis.nvsnm.com			 in :  PLUS TEST MCI
 agemiri.kojachera.cf		 in :  PLUS TEST IRC
+isegaro.ddns.net                 in :  PLUS TEST
