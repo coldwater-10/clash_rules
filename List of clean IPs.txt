@@ -5406,4 +5406,5 @@ mkb.jangal.icu			 in :  PLUS TEST MKB
 sht.jangal.icu			 in :  PLUS TEST SHT
 mcis.nvsnm.com			 in :  PLUS TEST MCI
 agemiri.kojachera.cf		 in :  PLUS TEST IRC
+hwb.myips.us.eu.org		 in :  PLUS TEST HWB
 isegaro.ddns.net                 in :  PLUS TEST
