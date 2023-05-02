@@ -6173,4 +6173,7 @@ sht.jangal.icu			 in :  PLUS TEST SHT
 mcis.nvsnm.com			 in :  PLUS TEST MCI
 agemiri.kojachera.cf		 in :  PLUS TEST IRC
 hwb.myips.us.eu.org		 in :  PLUS TEST HWB
+rtl.filna.cloud                  in :  PLUS TEST RTL
+mkh.filna.cloud                  in :  PLUS TEST MKB
+mci.filna.cloud                  in :  PLUS TEST MCI
 isegaro.ddns.net                 in :  PLUS TEST
