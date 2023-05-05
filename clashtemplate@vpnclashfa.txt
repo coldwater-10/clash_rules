@@ -172,6 +172,7 @@ dns:
     - '*.ffxiv.com'
     - '*.mcdn.bilivideo.cn'
     - +.media.dssott.com
+    
 #tun:
   #enable: true
   #stack: system # or gvisor
@@ -180,6 +181,7 @@ dns:
   #auto-redir: true # or false
   #auto-route: true 
   #auto-detect-interface: true
+
 rule-providers:
   iran:
     type: http
@@ -222,56 +224,110 @@ rule-providers:
       https://raw.githubusercontent.com/privacy-protection-tools/anti-AD/master/anti-ad-clash.yaml
     path: ./ruleset/AntiAd.yaml
     interval: 432000
-proxies: []
+
+
+proxies:
+  - {"name":"githubcomfreefq-2-1","type":"vmess","server":"185.143.220.25","port":443,"uuid":"f28e354e-c2d1-4983-9b07-5acaf1b3b3e5","alterId":0,"tls":true,"cipher":"auto","skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/6e9EtZ2dL","headers":{"host":""}}}
+
 proxy-groups:
-  - name: 🚀 انتخاب پروکسی
+
+  - name: 📶 انتخاب نوع اتصال
     type: select
     proxies:
-      - ♻️ خودکار (بهترین پینگ)
-      - DIRECT
-      - .*
-  - name: ♻️ خودکار (بهترین پینگ)
+      - خودکار (بهترین پینگ) 🤖
+      - دستی 🤏🏻
+      - بازگشتی ➡️
+      - تعادل بار (هش ثابت) ♻️
+      - تعادل بار (زمان بندی) ⏳
+      - ⛔ قطع اینترنت
+      - 🛡️ بدون فیلترشکن
+
+  - name: دستی 🤏🏻
+    type: select
+    proxies:
+      - githubcomfreefq-2-1
+
+  - name: خودکار (بهترین پینگ) 🤖
     type: url-test
-    url: http://www.gstatic.com/generate_204
+    url: http://clients3.google.com/generate_204
     interval: 300
-    tolerance: 50
     proxies:
-      - .*
-  - name: 🎮 استیم
-    type: select
+      - githubcomfreefq-2-1
+
+  - name: بازگشتی ➡️
+    type: fallback
+    url: http://clients3.google.com/generate_204
+    interval: 300
     proxies:
-      - DIRECT
-      - REJECT
-      - ♻️ خودکار (بهترین پینگ)
-      - 🚀 انتخاب پروکسی
-  - name: 🛑 رهگیری جهانی
-    type: select
+      - githubcomfreefq-2-1
+
+  - name: تعادل بار (هش ثابت) ♻️
+    type: load-balance
+    strategy: consistent-hashing
+    url: http://clients3.google.com/generate_204
+    interval: 300
     proxies:
-      - REJECT
-      - DIRECT
-      - ♻️ خودکار (بهترین پینگ)
-      - 🚀 انتخاب پروکسی
-  - name: 🍃 تصفیه برنامه
-    type: select
+      - githubcomfreefq-2-1
+
+  - name: تعادل بار (زمان بندی) ⏳
+    type: load-balance
+    strategy: round-robin
+    url: http://clients3.google.com/generate_204
+    interval: 300
+    tolerance: 100
     proxies:
-      - REJECT
-      - DIRECT
-      - ♻️ خودکار (بهترین پینگ)
-      - 🚀 انتخاب پروکسی
-  - name: 🆎 تبلیغات
-    type: select
-    proxies:
-      - REJECT
-      - DIRECT
-      - ♻️ خودکار (بهترین پینگ)
-      - 🚀 انتخاب پروکسی
+      - githubcomfreefq-2-1
+
   - name: 🇮🇷 سایتای ایرانی
     type: select
     proxies:
+      - 🛡️ بدون فیلترشکن
+      - 🚫 اجازه ندادن
+      - 📶 انتخاب نوع اتصال
+
+  - name: 🆎 تبلیغات
+    type: select
+    proxies:
+      - 🚫 اجازه ندادن
+      - 🛡️ بدون فیلترشکن
+      - 📶 انتخاب نوع اتصال
+
+  - name: 🍃 تصفیه برنامه
+    type: select
+    proxies:
+      - 🚫 اجازه ندادن
+      - 🛡️ بدون فیلترشکن
+      - 📶 انتخاب نوع اتصال
+
+  - name: 🛑 رهگیری جهانی
+    type: select
+    proxies:
+      - 🚫 اجازه ندادن
+      - 🛡️ بدون فیلترشکن
+      - 📶 انتخاب نوع اتصال
+
+  - name: 🎮 استیم
+    type: select
+    proxies:
+      - 🛡️ بدون فیلترشکن
+      - 🚫 اجازه ندادن
+      - 📶 انتخاب نوع اتصال
+
+  - name: 🛡️ بدون فیلترشکن
+    type: select
+    proxies:
       - DIRECT
+
+  - name: ⛔ قطع اینترنت
+    type: select
+    proxies:
       - REJECT
-      - ♻️ خودکار (بهترین پینگ)
-      - 🚀 انتخاب پروکسی
+
+  - name: 🚫 اجازه ندادن
+    type: select
+    proxies:
+      - REJECT
+
 rules:
   - DOMAIN-SUFFIX,ir,🇮🇷 سایتای ایرانی
   - GEOIP,IR,🇮🇷 سایتای ایرانی
@@ -377,4 +433,4 @@ rules:
   - IP-CIDR,223.87.182.102/32,🍃 تصفیه برنامه,no-resolve
   - IP-CIDR,223.87.182.11/32,🍃 تصفیه برنامه,no-resolve
   - IP-CIDR,223.87.182.52/32,🍃 تصفیه برنامه,no-resolve
-  - MATCH,🚀 انتخاب پروکسی
+  - MATCH,📶 انتخاب نوع اتصال
