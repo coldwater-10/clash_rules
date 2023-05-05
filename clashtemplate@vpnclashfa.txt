@@ -19,7 +19,7 @@ dns:
   enhanced-mode: fake-ip
   listen: 0.0.0.0:1053
   nameserver:
-    - 'https://1.1.1.1/dns-query#en0'
+    - https://1.1.1.1/dns-query#en0
     - https://cloudflare-dns.com/dns-query
     - https://1.1.1.1/dns-query
     - 1.1.1.1
@@ -41,7 +41,7 @@ dns:
     - 127.0.0.1
     - 114.114.114.114
     - 87.118.100.175:110
-    - '8.8.8.8#en0'
+    - 8.8.8.8#en0
     - https://dns.google/dns-query
     - https://8.8.8.8/dns-query
     - https://9.9.9.9/dns-query
@@ -50,8 +50,8 @@ dns:
     - https://doh.dns.sb/dns-query
     - https://doh.pub/dns-query
     - dhcp://en0
-    - 'tcp://8.8.8.8#en0'
-    - 'tls://8.8.8.8#en0'
+    - tcp://8.8.8.8#en0
+    - tls://8.8.8.8#en0
     - tls://dns.google:853
     - tls://dns.rubyfish.cn:853
     - tls://dot.pub:853
@@ -59,25 +59,25 @@ dns:
     geoip: true
     geoip-code: IR
     ipcidr:
-      - '0.0.0.0/8'
-      - '10.0.0.0/8'
-      - '100.64.0.0/10'
-      - '127.0.0.0/8'
-      - '169.254.0.0/16'
-      - '172.16.0.0/12'
-      - '192.0.0.0/24'
-      - '192.0.2.0/24'
-      - '192.88.99.0/24'
-      - '192.168.0.0/16'
-      - '198.18.0.0/15'
-      - '198.51.100.0/24'
-      - '203.0.113.0/24'
-      - '224.0.0.0/3'
-      - '240.0.0.0/4'
+      - 0.0.0.0/8
+      - 10.0.0.0/8
+      - 100.64.0.0/10
+      - 127.0.0.0/8
+      - 169.254.0.0/16
+      - 172.16.0.0/12
+      - 192.0.0.0/24
+      - 192.0.2.0/24
+      - 192.88.99.0/24
+      - 192.168.0.0/16
+      - 198.18.0.0/15
+      - 198.51.100.0/24
+      - 203.0.113.0/24
+      - 224.0.0.0/3
+      - 240.0.0.0/4
       - '::1/128'
-      - '64:ff9b:1::/48'
-      - 'fc00::/7'
-      - 'fe80::/10'
+      - 64:ff9b:1::/48
+      - fc00::/7
+      - fe80::/10
   fake-ip-range: 198.18.0.1/16
   fake-ip-filter:
     - '*.lan'
@@ -172,16 +172,6 @@ dns:
     - '*.ffxiv.com'
     - '*.mcdn.bilivideo.cn'
     - +.media.dssott.com
-    
-#tun:
-  #enable: true
-  #stack: system # or gvisor
-  #dns-hijack:
-    #- any:53
-  #auto-redir: true # or false
-  #auto-route: true 
-  #auto-detect-interface: true
-
 rule-providers:
   iran:
     type: http
@@ -193,8 +183,7 @@ rule-providers:
   steam:
     type: http
     behavior: classical
-    url: >-
-      https://raw.githubusercontent.com/coldwater-10/clash_rules/main/steam.yaml
+    url: https://raw.githubusercontent.com/coldwater-10/clash_rules/main/steam.yaml
     path: ./ruleset/steam.yaml
     interval: 432000
   add:
@@ -224,13 +213,8 @@ rule-providers:
       https://raw.githubusercontent.com/privacy-protection-tools/anti-AD/master/anti-ad-clash.yaml
     path: ./ruleset/AntiAd.yaml
     interval: 432000
-
-
-proxies:
-  - {"name":"githubcomfreefq-2-1","type":"vmess","server":"185.143.220.25","port":443,"uuid":"f28e354e-c2d1-4983-9b07-5acaf1b3b3e5","alterId":0,"tls":true,"cipher":"auto","skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/6e9EtZ2dL","headers":{"host":""}}}
-
+proxies: []
 proxy-groups:
-
   - name: 📶 انتخاب نوع اتصال
     type: select
     proxies:
@@ -241,34 +225,29 @@ proxy-groups:
       - تعادل بار (زمان بندی) ⏳
       - ⛔ قطع اینترنت
       - 🛡️ بدون فیلترشکن
-
   - name: دستی 🤏🏻
     type: select
     proxies:
-      - githubcomfreefq-2-1
-
+      - .*
   - name: خودکار (بهترین پینگ) 🤖
     type: url-test
     url: http://clients3.google.com/generate_204
     interval: 300
     proxies:
-      - githubcomfreefq-2-1
-
+      - .*
   - name: بازگشتی ➡️
     type: fallback
     url: http://clients3.google.com/generate_204
     interval: 300
     proxies:
-      - githubcomfreefq-2-1
-
+      - .*
   - name: تعادل بار (هش ثابت) ♻️
     type: load-balance
     strategy: consistent-hashing
     url: http://clients3.google.com/generate_204
     interval: 300
     proxies:
-      - githubcomfreefq-2-1
-
+      - .*
   - name: تعادل بار (زمان بندی) ⏳
     type: load-balance
     strategy: round-robin
@@ -276,58 +255,49 @@ proxy-groups:
     interval: 300
     tolerance: 100
     proxies:
-      - githubcomfreefq-2-1
-
+      - .*
   - name: 🇮🇷 سایتای ایرانی
     type: select
     proxies:
       - 🛡️ بدون فیلترشکن
       - 🚫 اجازه ندادن
       - 📶 انتخاب نوع اتصال
-
   - name: 🆎 تبلیغات
     type: select
     proxies:
       - 🚫 اجازه ندادن
       - 🛡️ بدون فیلترشکن
       - 📶 انتخاب نوع اتصال
-
   - name: 🍃 تصفیه برنامه
     type: select
     proxies:
       - 🚫 اجازه ندادن
       - 🛡️ بدون فیلترشکن
       - 📶 انتخاب نوع اتصال
-
   - name: 🛑 رهگیری جهانی
     type: select
     proxies:
       - 🚫 اجازه ندادن
       - 🛡️ بدون فیلترشکن
       - 📶 انتخاب نوع اتصال
-
   - name: 🎮 استیم
     type: select
     proxies:
       - 🛡️ بدون فیلترشکن
       - 🚫 اجازه ندادن
       - 📶 انتخاب نوع اتصال
-
   - name: 🛡️ بدون فیلترشکن
     type: select
     proxies:
       - DIRECT
-
   - name: ⛔ قطع اینترنت
     type: select
     proxies:
       - REJECT
-
   - name: 🚫 اجازه ندادن
     type: select
     proxies:
       - REJECT
-
 rules:
   - DOMAIN-SUFFIX,ir,🇮🇷 سایتای ایرانی
   - GEOIP,IR,🇮🇷 سایتای ایرانی
