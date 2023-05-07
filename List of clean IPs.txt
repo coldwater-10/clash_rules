@@ -4717,6 +4717,9 @@
 95.179.244.134		 in :  PLUS ALL IRC MCI
 95.179.250.43 		 in :  PLUS ALL IRC
 95.179.254.20 		 in :  PLUS ALL IRC
+104.17.224.78 		 in :  PLUS ALL AFR APT ARA AND DID FNP MCI RYN SAB SAM
+104.18.229.117 		 in :  PLUS ALL PIS
+203.22.223.203 		 in :  PLUS ALL SHT
 000webhost.com				         in :  PLUS ENG
 10fastfingers.com		                 in :  PLUS ENG
 123moviesfree.net			         in :  PLUS ENG
