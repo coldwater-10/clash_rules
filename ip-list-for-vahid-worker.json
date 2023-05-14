@@ -1,4 +1,4 @@
-ipv4:
+"ipv4": [
 {"ip":"103.11.212.197","operator":"PLUS","provider":"Vpnclashfa"}
 {"ip":"103.11.212.197","operator":"ALL","provider":"Vpnclashfa"}
 {"ip":"103.11.212.197","operator":"MCI","provider":"Vpnclashfa"}
