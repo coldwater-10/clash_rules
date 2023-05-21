@@ -2619,7 +2619,7 @@
 104.31.16.67		 in :  PLUS ALL SHT 
 104.31.16.7		 in :  PLUS ALL 
 104.31.16.73 		 in :  PLUS ALL SHT
-104.31.16.87 		 in :  PLUS ALL HWB PRS PTK
+104.31.16.87 		 in :  PLUS ALL HWB PRS PET
 104.31.16.9		 in :  PLUS ALL 
 104.31.209.227		 in :  PLUS ALL MCI 
 104.31.251.119		 in :  PLUS ALL IRC 
@@ -15063,7 +15063,7 @@ apt.ircf.space			 in :  PLUS TEST APT IRCF
 fnp.ircf.space			 in :  PLUS TEST FNP IRCF
 ryn.ircf.space			 in :  PLUS TEST RYN IRCF
 sbn.ircf.space			 in :  PLUS TEST SAB IRCF
-ptk.ircf.space			 in :  PLUS TEST PTK IRCF
+ptk.ircf.space			 in :  PLUS TEST PET IRCF
 mci.amiajoketoyou.lol		 in :  PLUS TEST MCI
 mtn.amiajoketoyou.lol		 in :  PLUS TEST IRC
 mci.eqjgkx.xyz			 in :  PLUS TEST MCI
