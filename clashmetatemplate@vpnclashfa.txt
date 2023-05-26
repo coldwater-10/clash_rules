@@ -68,11 +68,9 @@ dns:
     - https://nsc.torgues.net/
     - https://zepto-sto-1.edge.nextdns.io/
     - https://doh.dns.sb/dns-query
-    - https://doh.pub/dns-query
     - https://xtom-osa-1.edge.nextdns.io/
     - tls://dns.rubyfish.cn:853
     - 'tls://8.8.8.8#en0'
-    - tls://dot.pub:853
     - tcp://1.1.1.1
     - 'tcp://8.8.8.8#en0'
     - 'tcp://1.1.1.1#en0'
@@ -306,29 +304,32 @@ proxy-groups:
       - .*
   - name: خودکار (بهترین پینگ) 🤖
     type: url-test
-    url: http://clients3.google.com/generate_204
-    interval: 300
+    url: https://api.v2fly.org/checkConnection.svgz
+    interval: 600
+    tolerance: 180
     proxies:
       - .*
   - name: پشتیبان (بهترین پینگ) ➡️
     type: fallback
-    url: http://clients3.google.com/generate_204
-    interval: 300
+    url: https://api.v2fly.org/checkConnection.svgz
+    interval: 600
+    tolerance: 180
     proxies:
       - .*
   - name: توزیع بار (هش سازگار) ♻️
     type: load-balance
     strategy: consistent-hashing
-    url: http://clients3.google.com/generate_204
-    interval: 300
+    url: https://api.v2fly.org/checkConnection.svgz
+    interval: 600
+    tolerance: 180
     proxies:
       - .*
   - name: توزیع بار (یکنواخت) ⏳
     type: load-balance
     strategy: round-robin
-    url: http://clients3.google.com/generate_204
-    interval: 300
-    tolerance: 100
+    url: https://api.v2fly.org/checkConnection.svgz
+    interval: 600
+    tolerance: 180
     proxies:
       - .*
   - name: 🇮🇷 سایتای ایرانی
