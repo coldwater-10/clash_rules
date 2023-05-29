@@ -326,6 +326,7 @@ payload:
   - IP-CIDR,204.15.20.0/22    #}
 
 # Well-known sites 
+  - DOMAIN-SUFFIX,workers.dev
   - DOMAIN-SUFFIX,bbc.com
   - DOMAIN-SUFFIX,bbcpersian.com
   - DOMAIN-SUFFIX,bbc.co.uk
