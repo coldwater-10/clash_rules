@@ -82,3 +82,8 @@ mci.jangal.icu			 in :  MCI
 mcis.nvsnm.com			 in :  MCI
 mci.filna.cloud                  in :  MCI
 isegaro.ddns.net                 in :  MCI
+mci.tenium.eu.org                in : TEST MCI
+mcic.tenium.eu.org               in : TEST MCI
+irc.tenium.eu.org                in : TEST IRC
+ircc.tenium.eu.org               in : TEST IRC
+mkb.tenium.eu.org                in : TEST MKB
