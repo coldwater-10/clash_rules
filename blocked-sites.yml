@@ -326,7 +326,6 @@ payload:
   - IP-CIDR,204.15.20.0/22    #}
 
 # Well-known sites 
-  - DOMAIN-SUFFIX,workers.dev
   - DOMAIN-SUFFIX,bbc.com
   - DOMAIN-SUFFIX,bbcpersian.com
   - DOMAIN-SUFFIX,bbc.co.uk
@@ -340,7 +339,11 @@ payload:
   - DOMAIN-SUFFIX,voanews.com
   - DOMAIN-SUFFIX,gooya.com
 
-
+  - DOMAIN-SUFFIX,workers.dev
+  - DOMAIN-SUFFIX,v2rayse.com
+  - DOMAIN-SUFFIX,cff.pw
+  - DOMAIN-SUFFIX,vpnse.org
+  - DOMAIN-SUFFIX,cfmem.com
   - DOMAIN-SUFFIX,soundcloud.com
   - DOMAIN-SUFFIX,sndcdn.com
   - DOMAIN-SUFFIX,reddit.com
