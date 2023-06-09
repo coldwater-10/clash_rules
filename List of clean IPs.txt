@@ -15103,7 +15103,6 @@ mtn.ircf.space			 in :  PLUS TEST IRC IRCF
 mtnc.ircf.space			 in :  PLUS TEST IRC IRCF
 rtl.ircf.space			 in :  PLUS TEST RTL IRCF
 mkh.ircf.space			 in :  PLUS TEST MKB IRCF
-mkhx.ircf.space			 in :  PLUS TEST MKB IRCF
 hwb.ircf.space			 in :  PLUS TEST HWB IRCF
 ast.ircf.space			 in :  PLUS TEST AST IRCF
 sht.ircf.space			 in :  PLUS TEST SHT IRCF
