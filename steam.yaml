@@ -17,7 +17,6 @@ payload:
   - DOMAIN-SUFFIX,steamcontent.com.c.footprint.net,
   - DOMAIN-SUFFIX,steam-api.com,
   - DOMAIN-SUFFIX,steamdeck.com,
-  - DOMAIN-SUFFIX,underlords.com,
   - DOMAIN-SUFFIX,valvesoftware.com,
   - DOMAIN-SUFFIX,community.akamai.steamstatic.com,
   - DOMAIN-SUFFIX,steamstore-a.akamaihd.net,
