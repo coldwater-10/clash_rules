@@ -1011,3 +1011,4 @@ payload:
   - DOMAIN-SUFFIX,firebase.io,
   - DOMAIN-SUFFIX,crashlytics.com,
   - DOMAIN-SUFFIX,analytics-sg.tiktok.com,
+  - DOMAIN-SUFFIX,stats.wp.com,
