@@ -1006,3 +1006,7 @@ payload:
   - DOMAIN-SUFFIX,tralog.ganji.com,
   - DOMAIN-SUFFIX,up.qingdaonews.com,
   - DOMAIN-SUFFIX,vaserviece.10jqka.com.cn,
+  - DOMAIN-SUFFIX,appcenter.ms,
+  - DOMAIN-SUFFIX,app-measurement.com,
+  - DOMAIN-SUFFIX,firebase.io,
+  - DOMAIN-SUFFIX,crashlytics.com,
