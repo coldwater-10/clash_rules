@@ -43182,3 +43182,6 @@ payload:
   - DOMAIN-SUFFIX,adsfs.oppomobile.com,
   - DOMAIN-SUFFIX,partner.ads.js,
   - DOMAIN-SUFFIX,Doubleclick.net,
+  - DOMAIN-SUFFIX,an.facebook.com,
+  - DOMAIN-SUFFIX,business-api.tiktok.com,
+  - DOMAIN-SUFFIX,ads-api.tiktok.com,

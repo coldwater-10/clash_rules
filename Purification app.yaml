@@ -1010,3 +1010,4 @@ payload:
   - DOMAIN-SUFFIX,app-measurement.com,
   - DOMAIN-SUFFIX,firebase.io,
   - DOMAIN-SUFFIX,crashlytics.com,
+  - DOMAIN-SUFFIX,analytics-sg.tiktok.com,
