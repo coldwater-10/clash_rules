@@ -196,17 +196,7 @@ sniffer:
   port-whitelist:
     - '80'
     - '443'
-tun:
-  enable: true
-  prefer-h3: true
-  listen: 0.0.0.0:53
-  stack: gvisor
-  dns-hijack:
-    - any:53
-    - tcp://any:53
-  auto-redir: true
-  auto-route: true
-  auto-detect-interface: true
+
 proxies: []
 proxy-groups:
   - name: 🔀 نوع انتخاب پروکسی
