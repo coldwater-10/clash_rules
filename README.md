@@ -29,7 +29,7 @@
 
 
 برای ویندوز از [Clash Verge Rev](https://github.com/clash-verge-rev/clash-verge-rev/releases) استفاده کنین و توی تنظیمات tun رو فعال کنین
-
+برای اندروید هم از [Clash Meta for Android](https://github.com/MetaCubeX/ClashMetaForAndroid/releases) استفاده کنین
 
 <div style="display: flex; justify-content: space-between; align-items: center; width: 300px;">
     <a href="https://t.me/vpnclashfa"><img src="https://cdn.dribbble.com/users/4507400/screenshots/15420681/media/c00f77bc443cbc4ac96d138f9ac854c5.gif" alt="Telegram" width="100" height="100"></a>
