@@ -25,6 +25,10 @@
 
 [س403](https://raw.githubusercontent.com/coldwater-10/Vpnclashfa/refs/heads/main/dnsforgame/403.yml)
 
+[شلتر](https://raw.githubusercontent.com/coldwater-10/Vpnclashfa/refs/heads/main/dnsforgame/shelter.yml)
+
+[شلتر موبایل](https://raw.githubusercontent.com/coldwater-10/Vpnclashfa/refs/heads/main/dnsforgame/shelter-mobile.yml)
+
 [ترکیبی](https://raw.githubusercontent.com/coldwater-10/Vpnclashfa/refs/heads/main/dnsforgame/all.yml)
 
 
