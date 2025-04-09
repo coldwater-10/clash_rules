@@ -598,3 +598,4 @@ payload:
   - DOMAIN-SUFFIX,buf.build,
   - DOMAIN-SUFFIX,pkg.jenkins.io,
   - DOMAIN-SUFFIX,downloads.arduino.cc,
+  - DOMAIN-SUFFIX,parsec.app,
