@@ -1,4 +1,6 @@
 payload:
+  - PROCESS-NAME,WinStore.App.exe,
+  - PROCESS-NAME,svchost.exe,
   - DOMAIN-SUFFIX,djangoproject.com,
   - DOMAIN-SUFFIX,fodev.org,
   - DOMAIN-SUFFIX,android.com,
