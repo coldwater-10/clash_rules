@@ -1,6 +1,9 @@
 payload:
   - PROCESS-NAME,WinStore.App.exe,
   - PROCESS-NAME,svchost.exe,
+  - PROCESS-NAME,WindowsPackageManagerServer.exe,
+  - PROCESS-NAME,UniGetUI.exe,
+  - PROCESS-NAME,powershell.exe,
   - DOMAIN-SUFFIX,djangoproject.com,
   - DOMAIN-SUFFIX,fodev.org,
   - DOMAIN-SUFFIX,android.com,
