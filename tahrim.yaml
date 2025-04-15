@@ -629,7 +629,6 @@ payload:
   - DOMAIN-SUFFIX,boardgamegeek.com,
   - DOMAIN-SUFFIX,ign.com,
   - DOMAIN-SUFFIX,chatgpt.com,
-  - DOMAIN-SUFFIX,cdn.oaistatic.com,
-  - DOMAIN-SUFFIX,gemini.google.com,
   - DOMAIN-SUFFIX,oaistatic.com,
+  - DOMAIN-SUFFIX,gemini.google.com,
   - DOMAIN-SUFFIX,grok.com,
