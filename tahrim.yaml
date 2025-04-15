@@ -4,6 +4,7 @@ payload:
   - PROCESS-NAME,WindowsPackageManagerServer.exe,
   - PROCESS-NAME,UniGetUI.exe,
   - PROCESS-NAME,powershell.exe,
+  - DOMAIN-SUFFIX,aistudio.google.com,
   - DOMAIN-SUFFIX,slack.com,
   - DOMAIN-SUFFIX,oraclecloud.com,
   - DOMAIN-SUFFIX,solarwinds.com,
