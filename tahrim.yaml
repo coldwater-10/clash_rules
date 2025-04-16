@@ -7,6 +7,7 @@ payload:
   - DOMAIN-SUFFIX,aistudio.google.com,
   - DOMAIN-SUFFIX,deepmind.google,
   - DOMAIN-SUFFIX,klingai.com,
+  - DOMAIN-SUFFIX,genmo.ai,
   - DOMAIN-SUFFIX,slack.com,
   - DOMAIN-SUFFIX,oraclecloud.com,
   - DOMAIN-SUFFIX,solarwinds.com,
