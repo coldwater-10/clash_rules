@@ -15,3 +15,4 @@ payload:
   - PROCESS-NAME,NinjaDownloadManager.exe,
   - PROCESS-NAME,FlashGet.exe,
   - PROCESS-NAME,uGet.exe,
+  - PROCESS-NAME,YouTubeDownloader.exe,
