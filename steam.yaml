@@ -1,5 +1,7 @@
 payload:
   - PROCESS-NAME,steam.exe,
+  - PROCESS-NAME,com.valvesoftware.android.steam.community
+tv.twitch.android.app,
   - DOMAIN-KEYWORD,steam,
   - DOMAIN-SUFFIX,steamcommunity.com,
   - DOMAIN-SUFFIX,steamgames.com,
