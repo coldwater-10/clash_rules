@@ -6,6 +6,7 @@ payload:
   - PROCESS-NAME,powershell.exe,
   - DOMAIN-SUFFIX,aistudio.google.com,
   - DOMAIN-SUFFIX,deepmind.google,
+  - DOMAIN-SUFFIX,klingai.com,
   - DOMAIN-SUFFIX,slack.com,
   - DOMAIN-SUFFIX,oraclecloud.com,
   - DOMAIN-SUFFIX,solarwinds.com,
