@@ -129,3 +129,8 @@ payload:
   - DOMAIN-SUFFIX,adtech.yahooinc.com,
   - DOMAIN-SUFFIX,metrics.data.hicloud.com,
   - DOMAIN-SUFFIX,samsungads.com,
+  - DOMAIN-SUFFIX,advertising-api-eu.amazon.com,
+  - DOMAIN-SUFFIX,widgets.pinterest.com,
+  - DOMAIN-SUFFIX,advertising.yahoo.com,
+  - DOMAIN-SUFFIX,advertising.yandex.ru,
+  - DOMAIN-SUFFIX,advertising.apple.com,
