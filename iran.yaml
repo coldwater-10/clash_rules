@@ -1,4 +1,4 @@
 payload:
   - DOMAIN-SUFFIX,ir,
-  - GEOSITE,ir,
   - GEOIP,ir,
+  - GEOSITE,ir,

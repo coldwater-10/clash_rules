@@ -1,16 +1,21 @@
 payload:
-- "+.account.xiaomi.com"
-- "+.api.account.xiaomi.com"
-- "+.ruac.account.xiaomi.com"
-- "+.sgpac.account.xiaomi.com"
-- "+.api.io.mi.com"
-- "+.i2.api.io.mi.com"
-- "+.find.api.micloud.xiaomi.net"
-- "+.in.find.api.micloud.xiaomi.net"
-- "+.global.market.xiaomi.com"
-- "+.ultimateota.d.miui.com"
-- "+.update.intl.miui.com"
-- "+.update.miui.com"
-- "+.us.find.api.micloud.xiaomi.net"
-- "+.mcc.intl.inf.miui.com"
-- "+.cdn.awsde0-fusion.fds.api.mi-img.com"
+  - PROCESS-NAME,com.xiaomi.discover,
+  - PROCESS-NAME,com.android.updater,
+  - PROCESS-NAME,com.android.thememanager,
+  - PROCESS-NAME,com.xiaomi.mipicks,
+  - PROCESS-NAME,com.xiaomi.ugd,
+  - DOMAIN-SUFFIX,account.xiaomi.com,
+  - DOMAIN-SUFFIX,api.account.xiaomi.com,
+  - DOMAIN-SUFFIX,ruac.account.xiaomi.com,
+  - DOMAIN-SUFFIX,sgpac.account.xiaomi.com,
+  - DOMAIN-SUFFIX,api.io.mi.com,
+  - DOMAIN-SUFFIX,i2.api.io.mi.com,
+  - DOMAIN-SUFFIX,find.api.micloud.xiaomi.net,
+  - DOMAIN-SUFFIX,in.find.api.micloud.xiaomi.net,
+  - DOMAIN-SUFFIX,global.market.xiaomi.com,
+  - DOMAIN-SUFFIX,ultimateota.d.miui.com,
+  - DOMAIN-SUFFIX,update.intl.miui.com,
+  - DOMAIN-SUFFIX,update.miui.com,
+  - DOMAIN-SUFFIX,us.find.api.micloud.xiaomi.net,
+  - DOMAIN-SUFFIX,mcc.intl.inf.miui.com,
+  - DOMAIN-SUFFIX,cdn.awsde0-fusion.fds.api.mi-img.com,
