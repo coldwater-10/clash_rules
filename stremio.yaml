@@ -1,0 +1,4 @@
+payload:
+  - PROCESS-NAME,stremio.exe,
+  - PROCESS-NAME,stremio-runtime.exe,
+  - PROCESS-NAME,QtWebEngineProcess.exe,
