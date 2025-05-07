@@ -1,40 +1,7 @@
-# Vpnclashfa
-
-
-## [لیست](https://github.com/coldwater-10/clash_rules/blob/main/List%20of%20clean%20IPs.txt) آیپی و دامین های تمیز کلودفلر
-
-
 ## تمپلت مخصوص ایران برای [سایت v2rayse](https://v2.v2rayse.com/en)
-[برای کلش](https://github.com/coldwater-10/clash_rules/blob/main/clashtemplate%40vpnclashfa.txt)
-
 
 [برای کلش متا](https://github.com/coldwater-10/clash_rules/blob/main/clashmetatemplate%40vpnclashfa.txt)
 
-
-# دی ان اس برای گیم
-
-بعضی از نرم افزارا و بازیا از سیستم پروکسی استفاده نمیکنن پس یه سری کانفیگ کلش ساختم که پروکسی نداره فقط دی ان اس داره برای رفع تحریم
-
-[شکن](https://raw.githubusercontent.com/coldwater-10/Vpnclashfa/refs/heads/main/dnsforgame/shecan.yml)
-
-[الکترو](https://raw.githubusercontent.com/coldwater-10/Vpnclashfa/refs/heads/main/dnsforgame/electro.yml)
-
-[رادار بازی](https://raw.githubusercontent.com/coldwater-10/Vpnclashfa/refs/heads/main/dnsforgame/radar.yml)
-
-[بگذر](https://raw.githubusercontent.com/coldwater-10/Vpnclashfa/refs/heads/main/dnsforgame/begzar.yml)
-
-[س403](https://raw.githubusercontent.com/coldwater-10/Vpnclashfa/refs/heads/main/dnsforgame/403.yml)
-
-[شلتر](https://raw.githubusercontent.com/coldwater-10/Vpnclashfa/refs/heads/main/dnsforgame/shelter.yml)
-
-[شلتر موبایل](https://raw.githubusercontent.com/coldwater-10/Vpnclashfa/refs/heads/main/dnsforgame/shelter-mobile.yml)
-
-[ترکیبی](https://raw.githubusercontent.com/coldwater-10/Vpnclashfa/refs/heads/main/dnsforgame/all.yml)
-
-
-برای ویندوز از [Clash Verge Rev](https://github.com/clash-verge-rev/clash-verge-rev/releases) استفاده کنین و توی تنظیمات tun رو فعال کنین
-
-برای اندروید هم از [Clash Meta for Android](https://github.com/MetaCubeX/ClashMetaForAndroid/releases) استفاده کنین
 
 <div style="display: flex; justify-content: space-between; align-items: center; width: 300px;">
     <a href="https://t.me/vpnclashfa"><img src="https://cdn.dribbble.com/users/4507400/screenshots/15420681/media/c00f77bc443cbc4ac96d138f9ac854c5.gif" alt="Telegram" width="100" height="100"></a>
